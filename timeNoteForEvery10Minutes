@@ -1,0 +1,137 @@
+Aug  25 2024
+
+7.29 to 7:39 -> eclipse slow working so properly i am not working.
+7:39 to 7:49 -> code copy pani paste pani check panna PdfeEventhandling header, foooter, wartermartk
+7:49 to 7:59 -> error facing fontFactory solve by using standarFont.something
+7:59 to 8:09 -> header Code wrote manually
+8:09 to 8:19 -> logger doen't work properly solve by using log4j2.xml file in resource folder path and put some console related content
+8:19 to 8:29 ->  slf4j i am adding pom still warning throw so to solve by using add the dependency slf4j in my pom. and also if we don't want or properly not use exclusion also
+
+10:38 to 10:48 ->header, footer, watermark------------------ practice success
+10:48 to 10:58 ->generate watermark in rotaional way and also add image to check if any image add the watermark behind or not
+
+10:58 to 11:08 -> facing watermark error problem. it is not shown on over the image.
+11:08 to 11:18 _> same problem faceing but not find any solution.
+11:18 to 11:28 -> not found solution.
+11:28 to 11:38 -> moidifiying existing pdf file add new content
+11:38 to 11:48 -> merge multiple file into single . facing problems file not read properly.also adding split large file into smaller file.
+11:48 to 11:58 -> merge fille problem solved existing file trying to read content is not available so threw the error.
+12:00 to 12:10 -> practice split largefile into smaller and add new content into existing file.
+12:10 to 12:20 -> 
+12:20 to 12:30 -> pdf split completed practise.
+12:30 to 12:40 -> completed mergeMultiple file into single practice.
+12:40 to 12:50 -> handling forms like adding input filed but facing error cllass not available in that dependecy.
+12:50 to 1:00 ->solved handling forms i added dependency in another project.so i made mistake.
+
+1:30 to 1:40 -> trying to fix the handling forms .
+1:40 to 1:50 -> digital signature and security in pdf understanding.
+1:50 to 2:00 -> dependency not properly configure. 
+2:00 to 2:10 -> bath pannan
+3:37 to 3:47 -> dependency correcta set agalana close panni open panu eclipse elam sariagidum.
+
+18:24 -> 18:34-> i was fixing bug security configure in pdf file.
+18:34 to 18:44 -> i made the mistake added dependency into another pom file .
+18:44 to 19:04 -> dependency issue 
+19:04 to 19:15 -> dependency only issude
+21:00 to 21:10 -> add bookmark problem.
+
+=========================================================================================
+
+Aug 26 2024
+9:33 to 9:43 ->Extract plain text from file. 
+9:43 to 9:53 ->Extract text from specific pages
+9:53 to 10:03 -> think about dove come with me. pattern and matcher class about learn.
+10:03 to 10:13 -> searching, texting, analyse.................... error facing
+10:13 to 10:23 -> eror facing in that area and learning completely belive yourself dove come with you.
+10:23 to 10:33 -> i learned about new jar installation method
+mvn install:install-file \
+    -Dfile=stanford-corenlp-4.5.3-models.jar \
+    -DgroupId=edu.stanford.nlp \
+    -DartifactId=stanford-corenlp-4.5.3-models \
+    -Dversion=4.5.3 \
+    -Dpackaging=jar
+10:33 to 10:43 -> Dynamic Generate Report code.
+10:43 to 10:53 -> barchart , pichart how i can do....	
+10:53 to 11:03 -> i am trying to adding api unsplash for automatically download image based on our query and new image.
+11:03 to 12:03 -> api connect and generated pdf is is fine to work well.    
+
+13:04 to 13:14 -> searching dynamic content generate dependency
+13:14 to 13:24 -> find out dependency and adding . 
+17:30 to 18:15 -> dynamically generate charts pichart, linechart etc....
+18:15 to 18:36 -> 7 charts completed
+18:36 to 
+
+=========================================================================================
+
+Aug 28 2024
+7:00 to 7:30 -> my voice ear so i am excited to regulary , i trying to ear b'z it is very motivational for me. and also datastructure string and arrays overview after i think so started what are possibilitis we can do start nothing missing after that concept varum pothu learn panikalam athula vendam ippo ve start pannu possibilities irrukula.
+7:30 to 7:43 -> office kelamibitu irrunthan and learn one pant vanguna cotton tha vanganum yean na cotton th in paana kuda correcta irruku. ruuber apadi illa.
+
+=========================================================================================
+Aug 29 2024
+6:19 to 6:29 -> i learned how to create and set ssh key into github.
+-> I learned how to create and set ssh key on github. first generate key, add to ssh Agent then cat the key , copy and paste into github ssh key new.
+	ssh-keygen -t ed25519 -C "your_email@example.com" -> github email
+	eval "$(ssh-agent -s)" -> running ssh agent
+	ssh-add ~/.ssh/id_ed25519 ->added to ssh agent
+	cat ~/.ssh/id_ed25519.pub -> copy the ssh key
+	go to github setting - new ssh key create and paste the key and add title.
+	ssh -T git@github.com -> check the github key successfully added or not
+	
+6:29 to 6:48 -> pushed the code into github and also pushed itexpdf . learn how copy and remove command in directory . cp -r DSA ~/Downloads -> copyt the current directory to Download DSA folder. rm -r DSA remove complete directory with files.
+	cp -r DSA ~/Downloads
+	rm -r DSA 
+
+6:48 to 7:02 ->  learned how to copy multiple folder.
+	cp -r DSA targer src ~/Downloads/GITHUB/itexpdf3
+
+7:02 to 7:12 -> creat timeToTakeNotes repository and add one file.
+7:12 to 7:22 -> start DSA learning and i learned only 4 questions answer you know for each DSA.
+	what is..
+	primary purpose...
+	give me Array Data structure used to what we can do and what are the possibilities 
+	everything realtime practise  for example game development use is possible means how to write ask to chatgpt or think.
+7:22 to 7:30 -> again push the DSA added array notes. 
+
+=========================================================================================
+sep 1 2024
+9:40 to 10:00 -> self talk. the histroy was stores my name. 
+10:00 to 10:13 -> i started sorting, and hacking news also new technologie.
+10:13 to 10:56 -> reading articles hacking and tech news .
+10:56 to 11:24 -> i am getting the response regarding to hacking in chatgpt complete guide i am having my responsibilities is to learn and implement realtime only.
+11:24 to 
+
+
+=========================================================================================
+september 15 
+	7:00 to 8:15 -> english do,does,did and have, have to learned.
+	8:15 to 8:35 -> bathing learned upto 4 time face wash in soap it is massively show your face beautifully.
+	8:35 to 8:50 -> going to breakfast, pranesh call me and ask bro aren't eat? , 
+	8:50 to 9:15 -> eating chappathi, with paruppu and tea. chachi show me thd dance. 
+	9:15 to 9:35 -> watching motivation video(mind management 7) and come back room. 
+			1.prioritize task mental stage (
+			2.explore(prioritize task explore pannanum)
+			3.research(atha research pananum)
+			4.Generate(script, video shoot notes edukanum)
+			5.polish ( nama senja work nalla irruka)
+			6.administrate ( properly document make)
+			7.recharge
+9:35 to 9:42 -> to the above notes taking.
+9:42 to 9:54 -> enaku intha work mudichitu itha panika apdinu oru task irruntha intrest ha panuva. 2. athe pola itha mudichita next intha skill ha learn panalma apdinu onnu irruntha fast ha mudipan task. 3. 
+9:54 to 10:04 -> completed english rest of the topics.
+10:04 to 10:14 ->
+12:30 t0 12:50 -> wasted time.
+1:50 to 2:40 -> going and coming eating lunch rise, fish, poriyal and mango urukai, sambar, moore. learned how to goal set properly, personality very important so dress, shape very important. 2 year goal 6 month la acheive pannu unaku theriyum itha senja daily 6 month la ye acheive panidalam nu. so atha mattum pannu. clear goal set pannu.
+
+
+today goal set pannidanum hackingku .
+30 videos complete panidanum.
+face hair style.
+pannakaran enna pandra yappdi dress podura antha dress price, ellathayium note pani atha poda start panu.
+
+problem solve panna first 20 ways kandu pudi athula one way apply pannu. 
+sudo apt-add-repository universe
+sudo apt install chntpw.
+
+
+
