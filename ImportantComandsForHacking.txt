@@ -1,0 +1,23 @@
+INSTAGRAM SAVED POST DOWNLOAD COMMANDS
+	pip install instaloader
+	instaloader --login life_hacker :saved (or) 
+	instaloader --login your_username :saved --dirname-pattern="/path/to/your/folder"
+	password enter the prompt then automatically download that video
+	/////////////////////////////////////////////////////////////////
+INSTAGRAM POST,VIDEO,REELS DOWNLOADS:
+	instaloader --login life_hacker profile life_hacker --dirname-pattern="/path/to/your/folder"
+
+------------------------------------------------------------------------------------------
+Mysql new Connection User Create
+
+	1,sudo service mysql stop
+	2.sudo mysqld_safe --skip-grant-tables &
+	3.mysql -u root
+	4.FLUSH PRIVILEGES;
+	5.ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+	6.EXIT;
+	7.sudo service mysql start
+	8.mysql -u root -p
+	9.password enter.
+
+
