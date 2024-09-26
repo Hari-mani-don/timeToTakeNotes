@@ -1,3 +1,4 @@
+
 INSTAGRAM SAVED POST DOWNLOAD COMMANDS
 	pip install instaloader
 	instaloader --login life_hacker :saved (or) 
@@ -19,5 +20,7 @@ Mysql new Connection User Create
 	7.sudo service mysql start
 	8.mysql -u root -p
 	9.password enter.
+
+
 
 
