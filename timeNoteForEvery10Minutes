@@ -133,6 +133,415 @@ problem solve panna first 20 ways kandu pudi athula one way apply pannu.
 sudo apt-add-repository universe
 sudo apt install chntpw.
 
+14:25 to 14:35 -> how to create new user on mysql and grand access also save the command is mysql notes file.
+14:35 to 14:45 -> communication failure link problem facing . and also network connection cut so every one using internet except me so think and wired is plug out so understand my left side below wired is plug out so plug in that wire then data is comes me.
+14:45 to 15:12 -> trying to fixing communication faiuure link. finally the error is mysql url localhost add 
+15:12 to 17:37 -> trying to authenticate check and api used to add by using curl cmd . i learn insert data into db .
+17:37 to 19:12 -> to fix post and patch request not woriking. searching google not get answer, not get in stackoverflow but learn something in stackoverflow like -v is verbose mode finaly i think controller doesn't controller hear so @Valid remove and check then work after identified the problem is @NotNull i am using in timeStamp so that is the problem. after remove and chek it will work.
+========================================================================================================================================================================================
+
+Aug 28 2024/
+
+9:00 to 9:18 -> in single click 10000 datas add queries i am trying. but facing error.
+9:18 to 9:54 -> curl comand learn but not working like json formate how to show in cmd but not working. i learned how to json data into file
+9:54 to 10:20 -> i showed the task in vinayk they gave me some suggestion to add coloum and improve table name. i didn't get organisation who's provided after i interacted to vinayak and long time after i understood . client provide the organisation id . 
+10:20 to 10:30 -> i learned how to use @Temporal anotatis it is used to timestamp and date specifically put.
+10:30 to 10:50 -> i added two coloum on table and also learned latitude and logitude basic idea and learned @DecimalMin("-2")  and @DecimalMax("3);
+10:50 to 11:00 -> i learned @NotNull and @NotBlank different completely when i used @NotNull 
+11:00 to 11:22 -> i learned new things like order of coloum how to mention by using @Column(order =1) anotation used to specify;
+11:22 to 12:25 -> i am not find that how to re order the table name but i learned something.
+12:25 to 12:46 -> i learned about Mockaroo. it is used to basically real time testing purpose use it provide large number of datas in csv, sql etc... formate we download and check before move into production.
+12:46 to 13:00 -> Mockaroo how to use and clickouse related content prepare. and trying to do it 1000 data's into databse single query
+13:00 to 13:45 -> lunch and break 
+13:45 to 13:55 -> i am trying to login claude ai by using fake mail but it doesn't work.
+13:55 to 14:15 -> learned gitLab used merge and what is the different bw github and gitLab.
+14:15 to 14:30 -> we can download partial clone and also ssh key is used to only one time authenticate and http is used to clone when you interact with gitHub or gitlab we should authenticate for each time. 2FA accout can't used on both. insted of you generate token and used . these 2 condition like 2FA and toke generate for Http when used to download. but not ssh.
+14:30 to 14:48 -> i learned merge and rebase command distinct. and how to use this command.
+14:48 to 15:15 -> i learned by using ecliple how to merge request give.
+15:15 to 16:08 -> break some minutes and gave api link in front-end team then met santhosh bro and pichart details getting iam. then vinayak told me to learn click-house commands.\
+16:08 to 19:28 -> rewriting code based one vinayak prefer and lear don't write unnecessary code if it is necessary then only use. problem facing forbidden so i am trying to change permission get that data. i am facing while editing data not save 
+19:28 to 19:42 -> i spoke with front end girl they will told me relaxingly work. i found that problem while editing data i am write to save method that is the problem . i solved
+
+
+
+========================================================================================================================================================================================
+
+Aug 29 2024/
+
+8:45 to 9:16 -> i am trying to download vlc. but it is not possible. then we trying to how to reser or recover administration password. also i am getting knowledge about/etc/shadow -> this file have passwword in encrpted formate. i would to check how to recover passwor by checking ninja assit ai and with help of google search.
+9:16 to 10:03 -> developer enna soldrangalo atha appadiye follow pannu b'z athu tha correct nu understand panikiten.
+10:03 to 10:28 -> i learn one endpoint doint 2 works like save and edit. if i pass id edit wil work , if i won't provide id then save work.
+10:28 to 11:01 -> learn and writing list of data get from the table with the help of existing project code.
+11:01 to 12:01 -> i complete my previous task like api create and  i am trying copy paste on server to my locall it is not work, also trying to install chrome it is not work need administration password. i found how to play video on local by using online veed.io.
+12:01 to 12:25 -> took litle break and not my self send 3 videos.
+12:25 to 1:00 
+2:00 to 4:00 -> i complete my existing api task and also i learned performance is important and then they will asked your previous company what your doing , in that time i faceing strugle to tell.
+		no need to speek with colegus unnecessary things this. and may be your missuses anywhere else.
+		
+		
+
+========================================================================================================================================================================================
+
+
+Aug 30 2024/
+6:00 to 7:32 -> l learned quick sort complete flow. 
+7:32 to 7:45 -> preparing for office . 
+7:45 to 8:00 -> i am goint to eat foot.
+8:00 to 8:30 -> eating food upma with banana one.
+8:30 to 8:40 -> i am going towards office . rain is come but i have umbrella so i managed those are not take umbrella they will wet to the rain.
+8:40 to 9:00 -> the above all things nottaking.
+9:00 to 9:32 -> i spoke with santhodsh bro. and also my temate sreejith nair. don't speak with your colegue . may be your getting the problems. yarkitta pesanalum handshake panitu pesu new va irruntha.
+9:32 to 9:52 -> learned how to create connection on cickhouse. and also close connection method write seperately.
+9:52 to 10:04 -> nothing learn just i am seeing project work flow.
+10:04 to 10:19 -> learned 3 line of jdbc code.
+10:19 to 10:48 -> i was completely how the jdbc 4 lines work. i know very well.
+10:49 to 11:05 ->  i would be learning ObjectMapper like object to json is consider serialize and jso to object is consider deserialize.
+11:05 to 11:41 -> advanced concept saw in objectMapper.
+11:41 to 12:08 -> learning flow of the project .
+12:08 to 1:00 -> understanding the flow of the project by using tables.
+1:00 to 1:30 -> eating launch raise with fish, and petrote poriyal and sambar with fish kolambu.
+1:30 to 1:57 -> learning clickhouse commands through mysql commands.
+1:57 to 14:28 -> complete DDl commands and DML . update command only not work.
+14:28 to 14:39 -> merge concept extra there in dml but it is not work . i thought i made some mistake.
+14:39 to 15:12 -> completed clickhouse commands DcL, TCL. basically tcl is used to transactional like multiple operation perfome then we should use b'z it is very helpful to undo otherwise we are not getting the optioins. also learned how to create new user on database and change user password , permission access tables . 
+15:12 to 15:20 -> learned how to manage the transactionl into database we can perform begin , operation, savepoint , and then any other operation and commit permenently.
+15:20 to 15:31 -> i learned 2 commands extra like  and SHOW COLUMNS.
+15:31 to 16:01 -> i learned ctrl + shif + x or z it increase full screen and minimize the screen. and also i deep learn how EXPLAIN command wwork.
+16:01 to 16:31 -> set operator some commands check. we can use subquery on where clauses la.
+16:31 to 16:41 -> i learned about clauses all.and also learned subquery.
+16:41 to 17:35 -> how to play song on online . and also i learned how to connect store procedure sql and clickhouse and exactly know. i just trying. and also mind and brain both are diffrent brain what is say follow . don't follow mind whay say.
+17:35 to 17:58 -> songs mood nothing learn.
+17:58 to 18:52 ->  learning this is the best platform currently i am working b'z i see the database table colums everything related linux . it is so much i am very interested b'z my life start from that time to take action hacking related. and also i am trying to connect ssh remote server to local ver.
+
+========================================================================================================================================================================================
+Aug 31 2024/
+5:14 - wokeup and freshup
+5:14 to 6:15 - workout, boxing and bathing completed.
+6:15 to 6:45 -> meditation , affirmation, imagination.
+6:45 to 7:40 -> learning quicksort but i understood one way but everyone says differenet the best approach is chatgpt provided one b'z it is completely analyze the problem and optimization and then gave that code . i was followed that code.
+7:40 to 8:20 -> i was getting ready for office. and going to eat. the food is aappam 3 with konda kadala and tea. sema taste.\
+8:20 to 8:30 -> watching instagram learned one thing if completely your 5 billion cells unaku enna venumo antha enatha first niruthu . atha intha cell anaithum ninaikanum . apadi nadantha next body fullha ni atha pathi nena patha then body ready agidum then . your mind is completd ready to do . then you soul support for you. and also your brain completely plan and execute that work. then your easily getting that.
+8:30 to 8:50 -> came office via the route i am thinking the cells related. 
+8:50 to 9:21 -> haking image searching the ninja api .work update plane prparing by using ninja ai also . grattitude my cells and that life for god.
+9:29 to 9:42-> i am update my work plan and work update . after thinking what we can do.
+9:42 to 10:07 ->  advance_linux_scan_table inside each colum serves diffrent information . i am trying to understand the each column infromation.  
+10:07 to 10:32 -> learned address_info table complete column.
+10:32 to 1:00 -> understanding the problems of the task. and understood that privillage table, 3 as well as role. 
+1:00 to 1:30 -> eating food fish, ladisfinnger poriyal and figsh kolambu, rasm and more kulambu.
+1:30 to 4:00 -> i was completed the task and i feel better and also i am realize once again this is the best platform to learning hacking. because of now my project database table show me related networking and hardware it was push me for learning networking and so on. and also apparna nair she will leave the company so vinayak was told me getting kt from appana nair. so i was very happy b'z of in the position their hired me . so i understood that . 
+16:00 to 16:52 -> i learned List and set which one is best memory wise and performe wise. also learned if you want to understand the cod qudickly then you can use debug options is bette.
+16:52 to 17:17 -> i received amout from amirtha. i am so very happy. b'z now a days i am getting money lot.
+17:17 to 17:26 -> 24dys -31250, 8days -10416. 1 day -1302. 1hour -877  @52 . 10minute -146 @8.80 . 1minute -14.60  @0.90  .1sec -0.24
+
+
+========================================================================================================================================================================================
+sep 02 2024
+9:03 to 9:29 -> work update and work plan preparing.
+9:29 to 9:39 -> 10,600,6000, 36000,864000, :  100, 6000,360000, 8640000,: 500, 30000, 1800000,43200000,: 1000,60000,3600000,86400000,: 12000,720000,43200000,1036800000
+9:39 to 10:32 -> advance_linux_scan_table analyzing by using ninja AI.
+10:32 to 1:00 -> i was understood the privillage, group and role table completely.
+1:00 to 1:30 -> i had a lunch. fish, white rise  and sambar, fish kolambu.
+1:30 to 1:35 -> i taken break;
+1:35 to 15:06 -> 5,03000 per minute, 72,43,20,000 per day, 3,01,80,000 per hour, 8,383 per second -> elon musk
+		12,000 per second,72,0000 per minute,4,32,00000 per hour,103,68,00000 per day -> Selvamani
+15:06 to 16:34 -> merge sort and quick sort complet flow and code.
+16:34 to 17:44 -> i was learned bubble sort and insertion sort as wll as clickhouse how to connect in our project.
+17:44 to 17:57 -> phishng attack is most common thing. AI voice is used to attackers getting the funds and credential from the employees.		
+
+
+========================================================================================================================================================================================
+sep 02 2024
+5:15 to 6:15 -> exercise, meditailn, imaginartion, bath.
+6:15 to 7:40 -> practise insertion sorting and i had been learning binary search and linear serach.
+7:40 to 8:00 -> i am getting ready to office . 
+8:00 to 8:30 -> i ate food aapam with egg gravy as wll as tea.
+8:30 to 8: 50 -> i was comming to office.
+8:50 to 11:48 -> i have learned B-tree and hash static and dynamic as well as how we create appropriate database table and indexing and also data types.
+11:48 to 12:36 -> PEAKLIGHT Downloader Deployed in Attacks it basically cdn linked to server if anyone download the movie via archive attackers install the malware with vide file. i was talking with cybersecurity brother.
+
+========================================================================================================================================================================================
+sept 03 2024
+
+5:00 to 6:45 -> exercise, meditation,imagination,affirmation. also think i go to home comming diwali and i will get asirvatham and give 60000 money in my family.
+6:45 to 7:40 -> array data structure crud operation doing. excepti delete complete all.
+7:40 to 8:00 -> i was getting ready for office.
+8:00 to 8:30 -> i had been eating food. idiyappam with sundal kolambu as well as tea.
+8:30 to 8:50 -> i was comming office.
+8:50 to 10:28 -> getting the google dorks category. and learned authentication and authorization.
+10:29 to 10:53 -> i learned how to give permission by using role and encryption used to assign the role permission and grant access. we can give specific permission on user like select..
+10:53 to 11:52 -> i was thinking and self talking , how to create our own memory card, ram, sim, mobile data.
+11:52 to 12:02 -> to order the skills in specific pdf create and pushed the git.
+12:02 to 12:16 -> learned how to optimize query, logs, monitoring metics and perfomance, memory, disk, alert, resource allocation, configure settings.
+12:16 to 12:31 -> i took break.
+12:31 to 12:42 -> played chess.
+12:42 to 13:01 -> long time data to visualize line chart it is most effective for seeing our growth. i was starting how to implement monitoringand performance on table.
+13:01 to 13:30 -> i had been eating food. rise, fish, fish kolambu, kettu pona sambar and another one kara kolambu.
+13:30 to 13:40 -> i learned for every day i am taking notes so that is the reason my mind not overthinking.
+		energy -> sleep
+		focus -> meditaion
+		overthiking -> write
+		confidence -> exercise
+		productive -> plan and prioritse the task.
+13: 40 to 14:52 -> i learned how to monitoring our databse and table. i faced problem query execute . solved , how to see quey execution count and avg query execution time i know.
+14:52 to 16:23 - i learned how to monitoring commands.
+16:23 to 17:06 ->  i was spoking santhosh bro and  i gave you some advice. for learning new skill.
+17:06 to 18:06 -> i was reading word "was" as well as hacking. winrar vulnerable cv sent attacker in activist group the credential i used to reached the c2 server. they were download backdool tool phantomDL and phantomCore. they can do upload and download files from server. attackers create schedule task.
+18:06 to 19:00 -> i learned hardware components name and learn linear datastruce linked list and also it.
+19:50 to 8:10 -> i was eating dinner . chappathi with tomato gravy. sema taste.
+18:10 to 8:20 -> i paid food amount via gpay. 
+8:30 to 8:51 -> i was speeking with co-learner. 
+8:51 - to 8:58 -> i was brushing my teeth.
+8:89 to 5:00 -> 1st principle followed elon musk. i decided follow the principle. slept.
+
+
+======================================================================================================================================================================================== 
+
+sept 03 2024
+
+5:00 to 6:45 -> exercise, meditation,imagination,affirmation. also think i go to home comming diwali and i will get asirvatham and give 60000 money in my family.
+6:45 to 7:36 -> practising array deleteAll and delete method.
+7:36 to 8: 00 -> i was getting for office and going to eat. aapam and potato kuruma with tea. i was recharge my phone no jio.
+8:00 to 8:30 -> eating and waiting. they were cooking. finaly they will bring the food afternoon.
+8:30 to 8:50 -> i was comming office. i was atching gen story. i learned 5 things. say no. don't ask your value. say truth rather than lie. say your limit.
+8:50 to 9:05 -> preparing plan and note taking the above.
+9:05 to 9:15 -> i was making day plan.
+9:15 to 9:47 -> i learned programming cases .took notes in learningNotesWithError text file.
+9:47 to 11:10 -> akil bro assigned the task. i was completing the task.
+11:10 to 11:21 -> i learned colum -design and row design  database.
+11:21 to 11:39 -> i took break 7 minutes and i was taking notes.
+11:39 to 11:49 -> learned compression algorithms along with clickhouse.
+11:49 to 1:00  -> understood the LZ4 algorithm completly.
+1:00 to 1:30   -> i had launch . fish, fish kolambu, rasam, moore with pavaka amd beans poriayal .
+1:30 to 2:51 ->  learned query executon mechanism of clickhouse. and also how to push and pull the code using eclipse.
+2:51 to 3:01 ->  
+
+========================================================================================================================================================================================
+8:45 to 9:10 -> i wrote work plan.
+9:10 to 10:17 -> i was working a modificatio host and network entity task. i don't know the simple logic when he is told me before.
+10:17 to 10:27 -> i learned data warehousing.
+10:27 to 10:36 -> taking a warehouse notes.
+10:36 to 10:46 -> i was learning ETL (extract, transform, Lodad)
+10:47 to 10:57 -> learned Etl rest of the point and both ETL and warehousing combined what we can do.
+10:57 to 11:01 -> i was taking notes.
+11:01 to 11:11 -> i learned one cve vulnerability .
+11:13 to 11:23 -> i just searching hardware learning website . i didn't found.
+11:23 to 11:43 -> i was searching AI . i didn't find any aI.
+11:43 to 11:48 -> i searched harware component complete details. unfortunately i am not getting . 
+11:48 to 11:58 -> i was reading about cpu . i faced proper learnin or not problem.
+11:58 to 12:34 -> i was thinking how to learn hardware. 
+12:35 to 1:00 -> i was thinking only nothing learn. my brain is hyper active. so i can't control my brain.
+1:00 to 1:30 -> i had lunch. fish, fish kolambu. ladiesfinger.lemon uruka, moore. rasam.
+1:30 to 1:53 -> i prepare for learning and i learned cpu.
+13:53 to 13:57 -> not taking.
+13:57 to 14:07 -> i learned cpu and motherboard purpose.
+14:07 to 14:16 ->vinayak gave requirement. and i pushed the code .
+14:16 to 15:12 ->  i would change that hostentity subsidiary if condition as well as network, scanner. i am trying to connect clickhouse db. in my project.
+15:12 to 15:56 -> i learned resultSet methods something.
+15:56 to 16:43 -> learned ObjectMapper, objectNode used to get json formate.
+16:43 to 17:01 -> i learned how to get array of object coloum data get via result set and specific data get and print.
+17:01 to 18:27 -> connect the clickhouse database in my project and complete crud operation i was doing. also learned sql injection.
+
+========================================================================================================================================================================================
+7:30 to 7:50 -> i was getting for office. i weared dress black pant and blank shirt.
+8:00 to 8:20 -> i ate food upma with sundal kolambu, with tea;.
+8:57 to 9:06 -> changed limited console output to normal.
+9:06 to 9:45 -> table data copy from servet to local.
+9:45 to 9:52 -> i was getting a data about these three tables adv_scan. cve_data.port_based_scan;
+9:52 to 10:07 -> adv-scan_table is used to store complete linux system information . hardware related . port_based_scan is a identifying cve and storing the cve information about the table. the scan is based on the port. for each port produce some set of servicees.
+10:07 to 10:44 -> i was get requirement from vinayak. and i was doing the task.
+10:44 to 10:58 -> i execute my 4 step plan.
+10:58 to 11:41 -> understood the array of object value to get by using jsonNode. cusotmize eclipse sysout.
+11:41 to 12:38 -> taking break. completed the value get form jsonNode.
+12:38 to 12:55 -> modifiying eclipse editor and java code.
+12:55 ot 1:12 -> i am very quickly writing code . i wrote bios_info data. while getting each without specify the fieldName;
+1:12 to 1:40 -> ate lunch fish, fish kari. rasam, moore.
+1:40 to 14:03 -> wrote disk_info data. code.
+14:03 to 15:08 -> complete the retriving data from clickhouse database and show data .
+15:08 to 16:16 -> complex array inside getting.
+
+
+========================================================================================================================================================================================
+septemeber 09 2024 
+5:30 to 6:30 -> meditation, imagination , affirmation.Excercise
+6:30 to 7:40 -> Ds
+7:40 to 8:00 -> i was getting ready for office. 
+8:00 to 8:10 -> i was going to eat and i was taking umbrella yellow b'z the was raining  . i was wearing green shirt and whilte and gray mixed pant. 
+8:10 to 8:30 -> i was eating food. banana with upumavu. tea.
+8:30 to 8:40 -> back to office and i was taking a lunch bag. i was thinking . i am getting per day 100,000000 when we store the amount . i was thinging.
+8:40 to 8:57 ->note taking .
+8:57 50 12:32 -> custom implementaion of stack and linkedstack
+12:32 to 13:02 ->  analyzing stack implementaion.
+13:02 to 13:34 ->  i was eating lunch. fish, fish kolambu. different rise and poriyal mixed carrot and kosu.
+13:34 to 15 :25 -> sema thukkam and learning circular linked list ;
+15:25 to 16:35 -> break with completed circular linkedList
+16:35 to 17:17 -> completed queue custom implement.
+
+
+========================================================================================================================================================================================
+september 10 2024
+
+
+
+
+
+========================================================================================================================================================================================
+september 11 2024
+
+
+
+
+
+========================================================================================================================================================================================
+september 12 2024
+5:15 to 6:40 -> meditaion, imagination, exercise,unconcious stage.
+6:40 to 7:40 -> xl sheets prepare for note taking.
+7:40 to 8:00 -> i was getting for office by wearning dhoty and shirt. i weared dhoty and red line with greenshirt.
+8:00 to 8:30 -> eating idly and with white chatney and tomato chatney.with sambar.
+8:30 to 8:50 -> again going to room and took access card
+
+
+
+========================================================================================================================================================================================
+september 13 2024
+8:24 to 8:38 -> i was comming on office. and learn 3 things one is if your controll your mind. you should do this like your mind when it is enough then you can take extra time to do that. 2nd is new activity do like take any task that task long time to complete like take hand rise and counting this it is long time to count. so your attention increase. you got long time attentaion meas you can focus long thing. 3rd one is your mind what your doing morning to evening it will generate new ideas so take some free time. if your are not taking means that idea doesn.t generate. so make sure every day some free time take your self. 
+8:38 to 8:54 -> i was writing above notes. and play one match chess.
+8:54 to 
+
+========================================================================================================================================================================================
+september 18 2024
+5:20 to 6:00 -> exercise, dance, boxing.
+6:00 to 6:39 -> bathing, cloth cleaning.
+6:39 to 7:20 -> meditatin, imagination, affirmation. jagadeesh told water is not come.
+7:20 to 8:00 -> i was getting for office and comming to mess. comming tha way i was hearing motivation audio.
+8:00 to 8:20 -> i am having breakfast. dhosa with sundal kolambu. i am having drink. while watching phone.
+8:20 to 8:40 -> back to office and watching another motivation video. i learned (this end of the year i earn 10000 profit through my assert. once i got the money i will buy the cort and wearing. ).
+8:40 to 9:10 -> wrote above the data.
+9:10 to 10:50 -> i fix the data from getting db. 
+10:51 to 11:01 -> 
+
+=======================================================================================================================================================================================
+september 19 2024
+
+5:00 to 5:29 -> exercise, dance, poxing.
+5:29 to 6:15 -> bathing, cleaning cloth.
+6:15 to 6:50 -> meditation, imagination, without thoughts state acived .  i found withot thoughts state.
+6:50 to 7:40 -> i found github bug. which we will push  the code prefer date.
+7:40 to 8:10 -> i was getting ready for office. i was going towards mess. while i was watching motivation video with happy face.
+8:10 to 8:30 -> i was having food. new dish mitha dhosa with sundal kolambu.
+8:30 to 8:35 -> watch cyber voyage book publishing video. i forget my water bottle.
+8:35 to 8:49 -> coming to office.
+8:49 to 9:11 -> i was writing plan and above notes.
+9:11 to 9:21 -> 
+=======================================================================================================================================================================================
+september 23 2024
+
+5:23 to 6:00 -> exercise, dance, boxing.
+6:00 to 6:20 -> bathing and i learned cirular motion scrubb the skin to maintain best bright your face.
+6:20 to 7:20 -> imagination, meditaion, affirmation.
+7:20 to 7:40 -> i was getting office . i am very happy in front of the face glass. to see my face it is very bright and i am very shake. i understood on thing that is you should clean your body circular motion.
+7:40 to 8:00 -> comming mess and ate food. 
+8:00 to i:20 -> i was free. and used phone to gett english songs.
+8:20 to 8:40 -> comming office.
+8:40 to 9:07 -> making the above notes and plane.
+9:07 to 10:02 -> i spoke akilla to get another requirement and also he to you should check the role and chnge editable the endpoint based on name. now onwards i am continue my search query based retrive data. i completed 50%. l learnd new thing if any requirement comes in your desk you should thing your own idea and implement don't check any AI or other things . if you realy don't know about how to do the tash the you should the corresponding related requirement.
+10:07 to 10:32 -> i am deeply analysing the based on query retrive data . 
+10:38 to 11:03 -> i wrote logice 8 line only get list of string query data and get result set data bsed on the list of query then pass into the search recursive response data add into hashmap.
+11:24 to 12:24 -> completed the code but i won't execute the code. b'z the reson i had a another task.
+ 12:30 to 13:10 -> i am review the existing code and add role edit nambe option.
+ 13:10 to 13:36 -> complete lunch. i ate food fish poriyal and beans poriyal also fish fry, sambar , buttermilk, rise but the rise and sambar is not good.
+ 13:36 to 14:04 ->  i was helping youaraj . he dosn't know about bean . and what task exactly we can do.
+ 14:05 to 14:30 -> i am checking the completed task response is correct or not.
+14:38 to 15:08 ->  i faced error while i am adding role data then fixit.
+15:09 to 16:06 ->  i completed the task and continue the search based query i am facing error result set doesn't contain any when its retrive why.
+16:41 to 17:06 -> Result set doesn't return any data i was identified the problem is adv-scan_table doesn't contain any data so it will return null.
+17:41 to 18:15 -> user data edit and add problem solved. and also i thing how we add adv_scan_table data td table.
+=======================================================================================================================================================================================
+
+september 24 2024
+5:10 5:40 -> exercise, dance, boxing.
+5:40 to 6:23 -> bathing, face mask,
+6:23 to 7:05 -> imagination, affirmation, doing without thought state.
+7:05 to 7:40 -> wrote a vision board and , was getting ready for office. 
+7:40 to 8:00 -> i put into bindi my forehead. also i did my shoe lace again properly packing.
+8:00 to 8:10 -> ate food in dhosa and appam. with cocunut chatni and potato thokku.
+8:10 to 8:30 -> i watched english world famous money song. and doing other some youtube thing.
+8:30 to 8:50 -> comming office. watching meditaion video also in english.
+8:50 to 9:19 -> plan for the day and wrote the above content.
+9:19 to 12:00 -> i completed my task and learned new shortcuts it improves fast my productive.
+12:00 to 13:00 -> i helped to yuvaraj and then comback to my place and doing the query serach retrivel task;
+13:00 to 13:30 -> ate food apalam, cocunut poriyal and rise. with butermilk.
+13:30 to 14:16 -> i am checking the search qery based retrival.
+14:16 to 14:46 -> i facing error while retriving data from db result set is empty. i found that error.
+14:46 to 15:12 -> i completed most of the work but still i am getting error.
+15:12 to 15:26 -> i helped yuvaraj bro. and also i learned how to access inner class .
+15:26 to 15:52 -> i am facing new error also.
+15:52 to 16:40 ->  i learned jag is not to help me so the god is plan to away from me . thank god. i completed search query one thing. not fully.
+16:40 to 17:44 -> taked break and help yuvaraj . the i found if any task doing first chunks and one possible complete and execute then next possible do. 
+17:44 to 18:09 -> mostly completed the task;
+18:09 to 18:34 -> i completed the next possibilites code and checking.
+18:34 to 19:00 -> i completed next part of the possibilities. and checked it works fine.
+19:00 to 19:42 -> i completed fully search based query retrival. and i did work update.
+
+=======================================================================================================================================================================================
+september 25 2024 
+5:03 to 5:40 ->exercise, boxing, dance.
+5:40 to 6:12 -> bating
+6:12 to 6:50 -> meditaion, imagination, affirmation and also pleaseue to god give the water.
+6:50 to 7:52 -> wrote my vision board one  plane to wrote my income details.
+7:52 to 8:03 -> i am getting ready for office and come in mess and ate food. upumavu with sundal. tea.
+8:03 to 8:30 -> i saw how to do the jawline exercise. and also why sneezing we doesn't eat before hand wash.
+8:30 to 8:50 -> comming office and via watch the youtube english monk video.
+8:50 to 9:01 -> wrote today plane and above things.
+9:01 to 9:24 ->  i learned my bussiness mind time 12 to 2 to plan bussiness. and 3 to above programming and logical mind set. i am checking the search based query datas come.
+9:24 to 10:41 -> i completed my search based query retrival. and helped yuvaraj. but my mind is say you waste your time for to spend him. but my thought is if i help to hime then only others help me.
+10:41 to 12:00 -> during the period i am getting notes from my whatsapp charts in my future son. it wil help may be he is doing anything and learning.
+12:00 to 12:47 -> taking break 8 minutes and i said to vinaya completed the searche based query and he told me send me the example query da. and then he came in my desk told me another project name and to understand the project. and also learning psychology 
+12:47 to 14:13 ->  writeing psychology and also took break, now i am learning  Queryparser class.
+14:13 to 15:21 -> i am watching project setup. and learned commands ll means -> ls -la  and ctr + D close the terminal , ctr + R searching terminal 
+15:21 to 16:11 -> new project run and checking file download issues.
+16:11 to 16:52 -> i fount the file download issues and i learned vncconfig usage. 
+16:52 to 17:30 -> i learned time management two techinque, time blocking, pomodoro. to prioritize task eisenhower matrix. to achieve any goal use GTD(Getting Things Done).
+17:30 to 18:01 -> taking notes for my feauture sons.
+18:01 to 18:26 -> taking notes also my feauture sons. 
+18:26 to 18:50 -> took break . and review the download file code.
+18:50 to 19:22 -> was spoke with santhosh bro. and doing cube solving.
+19:22 to 20:00-> side la focus pannanum and top la flat ha vachikanum. i learned hair style suitable for my self. also beared.
+20:00 to 9:00 -> back to room ate food like chappathi with sundal kolambu and fish kolambu.
+
+
+=======================================================================================================================================================================================
+september 26 2024 
+5:22 to 6:14 -> exercise, boxing, dance, i felt to doing exercise is tough. but i told me one thing today is difficult, tommorow is much difficult but day after tomorrow is peacefull.
+6:14 to 6:52 -> jawling exercise and took shower.
+6:52 to 7:30 -> imagination, affirmation, meditaion.
+7:30 to 7:52 -> trying to copy movies phone into pc. but it unfortunatully my cable connection was loose.
+7:52 to 8:30 -> came in mess and ate food dhosa 5 with chatni and sambar with tea.
+8:30 to 8:50 -> was comming office and finished break. 
+8:50 to 8:56 -> wrothe the above notes.
+8:56 to 9:08 -> i learned bussiness mas suitable for formal events shoes derbies and casual shoes loafers. also profession shoes want use oxford
+9:08 to 10:06 -> i found my hair style and face shape also shoes. and wrote what are the thinks we need to explore wrote in notes.
+10:06 to 10:30 -> i learned the flow of file uplad and download using MultipartFile. wrote the code.
+10:30 to 10:38 -> i learned how to file download based on id .
+10:38 to 11:22 -> vinayak give me new search based retrive query then . i am gothrowing how to do it.
+11:22 to 14:07 -> took lunch break and ate food rise , fishh kolmabu and sambar, rasam with poriyal and white pulipu poriyal. with fish. my mind is scared and also my tough distrub to done english speaking. i am doing currently search based query retriving in new project. palyed chess.
+14:07 to 14:35 -> i am asking rewrite version of the code in searchbased query retrival.
+14:35 to 15:12 -> i am trying to fixing the issues db connection.
+15:12 to 15:52 -> trying to establish connection in db. connected and also i found it one thing my self if i am not take enough sleep it may reduce my productive time. so the sleep is very much important. 
+15:52 to 16:30 -> completed the serch based task . and i learned ps aux|grep java .
+16:30 to 17:12 ->  i was free and learned copoilet ai access.
+17:12 to 18:35 -> 
+
+=======================================================================================================================================================================================
+september 27 2024
+5:12 -> woke up and again alaram set moring 6:12 and slept b'z i need more sleep.
+6:12 to 7:12-> imagination harish mom supported for my love and harisha call and propose to me . that time i got per day 10cror earn only. then i gon per day 100cror i bough a roles royal car and go to her home and asked her father. but unfortunatully he was not support then my machan yogesh slept his father and told one Mama and akka both are loving more than 6years. so don't tell this type of words. then macha said to me Mama ,you should akka va kuptitu poidu. i imagined 6 month planning journey some part explain harisha . and exactly this time i will have married you. and these are the place we will going. And also i am waiting before bathing b'z pranesh was bathing. during that time i was taking notes . what we can do our life complete. skills and wants. then bathing during that time singing a song.
+7:12 to 7:40 -> watching monk audio. 
+7:40 to 8:00 -> i learned during that time bindi. how to put in correct way mixed and put.
+8:00 to 8:20 -> was comming on mess and ate food idly with konda kadala kolambu.
+8:20 to 8:35 -> was comming office and during that time i was watching gangster song and monk video 2 minutes eared.
+8:35 to 8:55 -> wrote above notes.
+
+=======================================================================================================================================================================================
 
 
 
