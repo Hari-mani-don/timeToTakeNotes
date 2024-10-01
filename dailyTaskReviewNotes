@@ -1,0 +1,919 @@
+
+Namah Shivaya Sir/Mam,
+
+Work Update
+20/08/2024
+ 
+Task: Implement API CRUD Operations using Spring Boot
+
+Objective:
+
+Design and implement a RESTful API using Spring Boot that performs CRUD (Create, Read, Update, Delete) operations. The API will also provide additional features to sort users based on timestamp, retrieve users with a timestamp greater than a specified value, and support ascending and descending sorting.
+
+API Endpoints:
+
+    Create User
+        Endpoint: /api/user
+        Method: POST
+        Request Body: User object (JSON)
+        Response: 201 Created with the created user object
+    Sort Users by Timestamp
+        Endpoint: /api/sort
+        Method: GET
+        Request Params: type (String, either "asc" or "desc")
+        Response: 200 OK with an array of user objects sorted by timestamp
+    Read All Users with Timestamp Greater Than
+        Endpoint: /api/greaterThan
+        Method: GET
+        Request Params: timestamp (Long)
+        Response: 200 OK with an array of user objects with timestamps greater than the 			 
+        specified value
+    Update User
+        Endpoint: /api/users
+        Method: PATCH
+        Request Params: userId (integer)
+        Request Body: User object (JSON)
+        Response: 200 OK with the updated user object
+    Delete User
+        Endpoint: /api/users
+        Method: DELETE
+        Request Params: userId (integer)
+        Response: 204 No Content
+
+Learned:
+
+    How to design and implement a RESTful API using Spring Boot
+    How to use Spring Data JPA to interact with a database
+    How to use Spring Boot's auto-configuration to simplify application development
+    How to use Java annotations to define API endpoints and request/response bodies
+
+============================================================================================================================================================================================
+Namah Shivaya Sir/Mam,
+
+Work Update
+21/08/2024
+
+Task Description:
+
+I completed a multithreading task that involved three jobs: finding the greatest element, finding the smallest element, and calculating the sum of the greatest and smallest elements in a list of integers.
+
+Task Requirements:
+
+    Job 1: Find Greater
+        Description: Find the greatest element in a list
+        Input: A list of integers
+        Output: The greatest element in the list
+    Job 2: Find Lesser
+        Description: Find the smallest element in a list
+        Input: A list of integers
+        Output: The smallest element in the list
+    Job 3: Sum Greater and Lesser
+        Description: Calculate the sum of the greatest and smallest elements
+        Input: The outputs from Job 1 and Job 2
+        Output: The sum of the greatest and smallest elements
+Solutions Implemented:
+
+       Used ExecutorService to manage a thread pool for parallel execution of jobs
+
+
+
+Learned:
+
+    How to use ExecutorService to manage a thread pool and execute tasks concurrently
+    How to use Future objects to retrieve the results of asynchronous tasks
+    How to sort a list of integers in Java
+    How to use lambda expressions to define concise and readable code
+============================================================================================================================================================================================
+
+
+i want to report submit , i am gothrowing the project name: seapWebDataProvider like dependency, controller, repository, service, and request and response, also tables give me template for this and i post on my group yesterday i am doing this activity
+
+Namah Shivaya Sir/Mam,
+
+Work Work Update 22/08/2024
+
+Project Report: SeaWebDataProvider
+
+Dependency
+
+    List of dependencies used in the project:
+        Spring Boot Starter Security: Enabled security features, including authentication and authorization, for the application.
+	Spring Boot Starter Web: Provided a web application framework, enabling the development of web-based applications.
+	Spring Boot Starter Data JPA: Enabled Java Persistence API (JPA) for database interactions.
+	Gson: Used for JSON serialization and deserialization.
+	JJWT-API and JJWT-Jackson: Utilized for JSON Web Token (JWT) generation and verification.
+
+Controllers
+
+    UserManagementController: Handles user management-related requests, providing functionality for user creation, update, and deletion.
+    RoleBasedAccessController: Manages role-based access control, ensuring that users can only access resources authorized by their roles.
+    SeaWebRestController: Handles incoming requests for sea web data, providing a RESTful API for data retrieval and manipulation.
+
+Services
+
+    UserManagementService: Provides business logic for user management, encapsulating user creation, update, and deletion operations.
+    RoleBasedAccessService: Manages role-based access control, determining user privileges and access levels.
+    UserDetailsService: Retrieves and manipulates user details, including user data and role assignments.
+
+Data Access Objects (DAOs)
+
+    PrivilegeDao: Provides data access for privileges, enabling CRUD operations on privilege data.
+    PrivilegeGroupDao: Manages privilege groups, allowing for the creation, update, and deletion of privilege groups.
+    PrivilegeGroupMapDao: Maps privileges to privilege groups, enabling the assignment of privileges to groups.
+    RoleDao: Provides data access for roles, enabling CRUD operations on role data.
+    RoleMapDao: Maps roles to users, assigning roles to users.
+    UserRepository: Provides data access for users, enabling CRUD operations on user data.
+
+Entities
+
+    AuthRequest: Represents an authentication request, containing user credentials and other relevant information.
+    UserEntity: Represents a user, containing user data and role assignments.
+    RoleEntity: Represents a role, containing role data and privilege assignments.
+    RoleMapEntity: Maps roles to users, assigning roles to users.
+    PrivilegeEntity: Represents a privilege, containing privilege data and group assignments.
+    PrivilegeGroupEntity: Represents a privilege group, containing group data and privilege assignments.
+    PrivilegeGroupMapEntity: Maps privileges to privilege groups, assigning privileges to groups.
+
+Security Configuration
+
+    SecurityConfig: Configures security settings, including authentication and authorization mechanisms.
+    WebConfig: Configures web-related settings, including URL mappings and request handling.
+
+Filters
+
+    JwtFilter: Authenticates and authorizes requests using JSON Web Tokens (JWT).
+
+Utilities
+
+    JwtUtil: Provides utility methods for working with JWT, including token generation and verification.
+
+Beans
+
+    PrivilegeBean: Represents a privilege, containing privilege data and group assignments.
+    PrivilegeGroupBean: Represents a privilege group, containing group data and privilege assignments.
+    RoleBean: Represents a role, containing role data and privilege assignments.
+
+I reviewed.
+
+
+============================================================================================================================================================================================
+i want to report submit , i completly gothrow the project code flow , project name seapWebDataProvider and i learned about that __________.give me template fot this .fille controller,exception,repositor,dependency,service, in the space corresponding data.
+
+Namah Shivaya Sir/Mam,
+
+Work Work Update 23/08/2024
+
+Project Report: seapWebDataProvider
+
+Project Overview
+
+I have thoroughly reviewed the project code flow for seapWebDataProvider and gained a comprehensive understanding of its architecture and components.
+
+Key Takeaways
+
+During my review, I learned about the following key components of the project:
+
+    Controller: The controller layer is responsible for handling incoming HTTP requests and delegating tasks to the service layer. It uses Spring MVC framework and is annotated with @RestController.
+    Exception Handling: The project uses a traditional exception way to handle.
+    Repository: The repository layer is responsible for data access and uses Spring Data JPA to interact with the database. It provides a layer of abstraction between the business logic and the database.
+    Dependency Injection: The project uses Spring's dependency injection mechanism to manage dependencies between components. It uses @Autowired annotation to inject dependencies into beans.
+    Service Layer: The service layer is responsible for business logic and encapsulates the core functionality of the application. It uses @Service annotation and is injected with dependencies using @Autowired.
+============================================================================================================================================================================================
+I should submit report for what i lerned. my task is create rest ful api by using spring boot i completed the task , Implemented log4j in pom.xml and created exception package and validation dependecy , add the global Exception class , and also i created add, update, delete, getAll rest end point created and wrote logic . I learned about in this task give me your suggestioin learing point of view and give me template for this 
+
+Namah Shivaya Sir/Mam,
+
+Work Work Update 27/08/2024
+
+
+Report:
+
+Task: Creating a RESTful API using Spring Boot
+
+Objective: To design and implement a RESTful API using Spring Boot, incorporating logging, exception handling, and validation.
+
+Summary:
+
+In this task, I successfully created a RESTful API using Spring Boot, which includes the following features:
+
+    Implemented Log4j logging in the project's pom.xml file
+    Created an exception package and added validation dependency
+    Developed a global Exception class to handle errors
+    Designed and implemented REST endpoints for add, update, delete, and getAll operations
+    Wrote logic for each endpoint to perform the respective CRUD operations
+
+Learning Points:
+
+    Spring Boot: I gained hands-on experience with Spring Boot, a popular framework for building web applications. I learned how to create a new project, configure dependencies, and use annotations to enable features like logging and exception handling.
+    RESTful API Design: I understood the principles of designing RESTful APIs, including the use of HTTP methods (GET, POST, PUT, DELETE), resource naming conventions, and request/response body formats (JSON).
+    Logging with Log4j: I learned how to configure Log4j in a Spring Boot project, which is essential for monitoring and debugging applications.
+    Exception Handling: I implemented a global Exception class to handle errors and exceptions in a centralized manner, making the code more robust and maintainable.
+    Validation: I added validation dependency to ensure that incoming requests are validated before processing, which helps prevent errors and improves data integrity.
+
+============================================================================================================================================================================================
+
+I should submit report for what i lerned. my task is modify the subsidiaries api and i learned withou need nothing add extra it make maintainability problem give me simple template
+
+Namah Shivaya Sir/Mam,
+
+Work Work Update 27/08/2024
+
+Report: Modifying Subsidiaries API
+
+Introduction:
+
+In this task, I was assigned to modify the Subsidiaries API rewrite the code. During this process, I learned several valuable lessons that I would like to share in this report.
+
+Key Learnings:
+
+    Avoid Unnecessary Complexity: I learned that adding extra features or code without a clear need can lead to maintainability problems. Instead, it's essential to focus on simplicity and only add functionality that is necessary.
+    Code Organization: I understood the importance of keeping the code organized and structured. This makes it easier to navigate and maintain the codebase, reducing the likelihood of errors and making it easier to make future changes.
+
+Best Practices:
+    Keep it Simple: Avoid adding unnecessary complexity to the code. Focus on simplicity and only add functionality that is necessary.
+    Organize Code: Keep the code organized and structured to make it easier to navigate and maintain.
+
+17:57 to 18:20 -> learned about clickhouse is used to what can i do. and performance, coloum oriented. 
+
+============================================================================================================================================================================================
+
+i should submit report on group . the task is to analyze the clickhouse tables and learn how the click house work. i learned how clickhouse is working and learn one table advanced_linux_scan_table . and also i learned objectMapper and it usage and so on.clickhouse commeands used to retrive the data nad update, deleted checking. give me the template of this
+Namah Shivaya Sir/Mam,
+
+Work Update 30/08/2024
+
+Analysis of ClickHouse Tables and Understanding ClickHouse Functionality
+
+As part of our group project, I was tasked with analyzing ClickHouse tables and gaining a deeper understanding of how ClickHouse works. In this report, I will outline my findings and provide an overview of the ClickHouse table I analyzed, as well as the commands used to retrieve, update, and delete data.
+
+ClickHouse is a column-store database management system designed for real-time analytics. It is known for its high performance, scalability, and ease of use. ClickHouse allows for fast data ingestion, processing, and querying, making it an ideal choice for big data analytics.
+
+Table Analysis: Advanced Linux Scan Table
+
+I analyzed the advanced_linux_scan_table table, which contains data related to Linux system scans. The table has the following columns:
+
+    id (primary key)
+    scan_date
+    scan_time
+    hostname
+    ip_address
+    os_version
+    kernel_version
+    cpu_architecture
+    memory_size
+    disk_size
+
+ObjectMapper and its Usage:
+
+I also learned about ObjectMapper, a Java library used for serializing and deserializing Java objects to and from JSON. ObjectMapper is commonly used in conjunction with ClickHouse to convert data between Java objects and ClickHouse tables.
+
+
+i should update the today work pland so the task is rest of the 2 tables and analyze the code give simeple template
+
+Namah Shivaya Sir/Mam,
+
+Work Update 31/08/2024
+
+Task: Analyze remaining 2 tables and code
+
+Tables to Analyze:
+
+    cve_data
+    port_based_scan_data_table
+
+Code to Analyze: HostDetailsService class 
+
+
+============================================================================================================================================================================================
+
+i shoud submit the task in my group. my task is learning clickous as well as understanding the code flow of privillages and also i completed the issues faced in frontend their are not getting backend data but show me success. the problem i solved. give me simple template
+
+Namah Shivaya Sir/Mam,
+
+Work Update 31/08/2024
+
+    Learned Clickous DDL,DCL,DML,TCL,DQL and understood the code flow of privileges class
+    Resolved issues faced in frontend where data was not being received from backend, despite showing success
+
+
+
+
+
+Understanding code flow of the role table and analyzing data advance_linux_table , cve_data,port_based_scan_data and also continues clickhouse learning
+
+Here is a template for your today's work plan:
+
+Today's Work Plan:
+
+Task 1: Understanding Code Flow of Role Table
+        Review existing code and documentation related to the role table
+        Identify key functions and modules involved in the code flow
+        Analyze data flow and interactions between different components
+    Expected Outcome: A clear understanding of the role table's code flow and its implications on the project
+
+Task 2: Analyzing Data
+
+    Objective: Analyze data from various sources to gain insights and identify patterns
+    Tasks:
+        Review and analyze data from:
+            advance_linux_table
+            cve_data
+            port_based_scan_data
+        Identify key trends, patterns, and correlations
+        Document findings and insights
+    Expected Outcome: A comprehensive analysis of the data, highlighting key findings and recommendations
+
+Task 3: Continuing ClickHouse Learning
+ Practice querying and analyzing data using ClickHouse
+
+    Objective: Continue learning ClickHouse and its applications
+    Tasks:
+        Complete online tutorials and courses to improve ClickHouse skills
+        Practice querying and analyzing data using ClickHouse
+        Review documentation and best practices for ClickHouse implementation
+    Expected Outcome: Improved proficiency in ClickHouse and its applications in the project
+
+Timeline:
+
+    Task 1: 2 hours
+    Task 2: 3 hours
+    Task 3: 2 hours
+
+Deliverables:
+
+    A written summary of the code flow of the role table
+    A report detailing the analysis of data from various sources
+    A brief update on ClickHouse learning progress
+
+Please let me know if you need any further assistance or clarification!
+
+
+Namah Shivaya Sir/Mam,
+
+Work plan 02/09/2024
+
+Continuing ClickHouse Learning
+ 	Practice querying and analyzing data using ClickHouse
+Understanding Code Flow of Role Table
+        Review existing code and documentation related to the role table
+        Identify key functions and modules involved in the code flow
+        Analyze data flow and interactions between different components
+Review and analyze data from:
+        advance_linux_table
+        cve_data
+        port_based_scan_data
+============================================================================================================================================================================================
+plan -> before complete 12:00 hacking, networking after 12 -> learn englis words, and words 100, algorithms.
+
+i shoud submit the task in my group.i was understood the privillage table, group and role table complete flow and code. i learned clickhouse how to connect in our project.give me simple template.
+
+Namah Shivaya Sir/Mam,
+
+Work update 02/09/2024
+
+
+I have completely understanding the privilege table, privilegeGroup table, and role table complete flow and code. Additionally, I have learned how to connect ClickHouse to our project.
+Deliverables:
+    I have reviewed the advanced_scan_table, cve_data and port_scan_table.
+
+
+Namah Shivaya Sir/Mam,
+Work plan 03/09/2024
+    1. Data Modeling and Schema Design: Learn how to design efficient and scalable data models, including table structures, indexing, and data types. This will help you optimize data storage, querying, and performance. 
+    2. Query Optimization: Understand how to write efficient queries, including using indexes, optimizing joins, and leveraging ClickHouse's query optimization features. This will help you improve query performance and reduce resource utilization. 
+    3. Learn how to integrate ClickHouse with other data sources, like databases, data lakes, or messaging queues. 
+    4.Explore ClickHouse's data processing capabilities, including data aggregation, filtering, and transformation. 
+
+
+===============================================================================================================================================================================================
+
+
+Namah Shivaya Sir/Mam,
+
+Work update 03/09/2024
+
+Through completing this task, I have gained a deeper understanding of the importance of creating a well-defined data structure table and appropriate indexes. I have learned:
+
+    How to create a well-defined data structure table by:
+        Verifying that required columns.
+        Establishing relationships between tables to facilitate efficient data retrieval and manipulation
+        Choosing appropriate data types to optimize storage and query performance
+    How to create appropriate indexes on a table by:
+        Choosing index columns based on frequently used columns in clauses like WHERE, JOIN, and ORDER BY
+        Selecting appropriate indexing types, such as B-tree, hash, bitmap, Trie index, Bloom Filter, or Full-text
+        Creating indexes on columns with the chosen indexing type
+    How to choose appropriate data types by:
+        Identifying the data stored in each column
+        Choosing data types considering the size of the data to balance storage efficiency and query performance
+   Aditionaly, i have learned the internal workings of various indexing types, including B-tree, hash, and Trie index.
+
+
+Namah Shivaya Sir/Mam,
+
+Work plan 04/09/2024
+   
+    5. Security and Access Control: Understand ClickHouse's security features, including authentication, authorization, and encryption. Learn how to manage user roles, permissions, and access control lists (ACLs) to ensure data security and compliance. 
+    6. Monitoring and Performance Tuning: Learn how to monitor ClickHouse's performance, including metrics, logs, and alerts. Understand how to optimize configuration settings, adjust resource allocation, and troubleshoot common issues. 
+
+
+elastic search.............
+
+
+===============================================================================================================================================================================================
+Namah Shivaya Sir/Mam,
+
+Work update 04/09/2024
+
+Authentication
+
+    Method: Email and password authentication
+    Password requirements:
+        12 characters long ,1 uppercase letter, 1 lowercase letter,1 special character,1 number
+    MFA (Multi-Factor Authentication) recommended
+
+Authorization
+    Role-Based Access Control (RBAC)
+    Roles: ReadOnly, WriteOnly, ExecuteOnly
+    Permissions:CREATE,UPDATE,INSERT,DELETE,DROP,ALTER
+
+Managing User Roles and Permissions
+    Commands:
+        CREATE ROLE 'myrole' WITH PERMISSIONS (SELECT, INSERT);
+        GRANT ROLE 'myrole' TO 'myuser';
+        REVOKE ROLE 'myrole' FROM 'myuser';
+        GRANT SELECT ON TABLE mytable TO 'myuser';
+        REVOKE SELECT ON TABLE mytable FROM 'myuser';
+
+Encryption
+    Configured via config.xml
+    Supports SSL certificate and SSL key
+
+Monitoring ClickHouse Database and Performance
+    Tools:
+        EXPLAIN clause
+        system.query_log table
+        system.metrics table
+        system.processes table
+    Query performance and query-related information gathered using EXPLAIN clause
+    system.query_log table used to retrieve query execution details, including:
+        Query text,Query start time,Query duration,Database name,User,Table name,Exception information.
+    Last 1 hour query details can be retrieved using the command: SELECT query, query_start_time, query_duration_ms FROM system.query_log WHERE query_start_time > now() - INTERVAL 1 hour;
+
+
+
+===============================================================================================================================================================================================
+sep 5 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan 05/09/2024
+
+	ClickHouse Architecture and Internals: Learn Delve deeper into ClickHouse's architecture, including its column-store design, compression algorithms, and query execution mechanisms. This will help you understand the underlying technology and make informed decisions. 
+	Best Practices and Use Cases: Study real-world use cases and best practices for deploying ClickHouse in various scenarios, such as real-time analytics, data warehousing, and IoT data processing. 
+	
+	
+	
+
+
+    Stores data in columns, each column representing a single attribute or field.
+    Good for analytical workloads, such as filtering and aggregation.
+    Example: Trading.
+
+
+
+    Stores data in rows, each row representing a single record.
+    Good for transactional workloads, such as insert, update, and delete.
+    Example: Bank account.
+
+Namah Shivaya Sir/Mam,
+
+Work update 05/09/2024
+
+  I have learned Column-Store Database Design: Stores data in columns, efficient for analytical workloads.
+    Row-Store Database Design: Stores data in rows, efficient for transactional workloads.
+    Compression Algorithms: Reduces data size, supports LZ4, Zstandard, and Delta encoding.
+    LZ4 Compression Algorithm: Dictionary-based, compresses data by pattern matching, literal encoding, and repeat encoding.
+    Query Execution Mechanisms: ClickHouse uses vectorized query execution, column-store indexing, and caching for efficient query execution.
+    
+    Thank you.
+
+
+    Used to reduce data size before storing in the database.
+    Helps with retrieving large amounts of data and reduces disk storage.
+    Supports various algorithms, including:
+        LZ4: Lossless compression for high-performance compression and decompression.
+        Zstandard: Another compression algorithm.
+        Delta encoding: Compression for numerical data.
+
+LZ4 Compression Algorithm
+
+    Dictionary-based algorithm.
+    Compresses data by:
+        Creating a dictionary of frequent patterns.
+        Pattern matching to encode data.
+        Literal encoding for non-matching patterns.
+        Repeat encoding for repeated patterns.
+    Decompresses data by:
+        Retrieving compressed data from dictionary format.
+        Indexing decoding.
+        Literal decoding.
+        Repeat decoding.
+
+Query Execution Mechanisms
+
+    ClickHouse uses various mechanisms to execute queries efficiently, including:
+        Vectorized query execution: Executes queries in parallel using multi-core CPUs.
+        Column-store indexing: Stores indexes in columns for faster query execution.
+        Caching: Stores frequently accessed data in cache to improve query performance.
+
+===============================================================================================================================================================================================
+september 06 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan 06/09/2024
+
+
+To add the 'latitude' and 'longitude' columns to the 'Host' and 'Network Entity' classes while request get that data from location array and store the value into that two column.
+Data Warehousing and ETL: Understanding data warehousing concepts and ETL (Extract, Transform, Load) processes can help you design and implement efficient data pipelines.
+
+
+
+Namah Shivaya Sir/Mam,
+
+Work update 06/09/2024
+
+Data Warehousing:
+
+    Collect data from various sources into a single repository
+    Enable efficient analytics and improve business decision-making
+    Key benefits: integrate data, store historical data, improve data quality, support business intelligence
+
+ETL (Extract, Transform, Load):
+
+    Extract data from sources
+    Transform data into a standardized structure
+    Load data into a target system (e.g. data warehouse)
+    Benefits: automate data integration, improve data quality, reduce data redundancy, support real-time analytics
+
+Combining ETL and Data Warehousing:
+
+    Enable data-driven decision-making
+    Improve data governance
+    Increase efficiency
+    Enhance analytics
+    Gain a competitive advantage
+    
+    
+    
+
+===============================================================================================================================================================================================
+septemeber 07 2024
+
+Namah Shivaya Sir/Ma'am
+
+work plan for 07/09/2024:
+
+Analyz the columns, fields, and data of the three tables: adva_scan_linux_data_table, cve_data, and port_based_scan_data_table."
+
+
+
+Namah Shivaya Sir/Ma'am
+
+work update for 07/09/2024:
+
+I analyzed the three tables: adva_scan_linux_data_table, cve_data, and port_based_scan_data_table. I connected to the database and got the data, which came back as an array of objects or a single object. I used ObjectMapper to make the data look the same, and then I stored it in a HashMap so it's easy to use. I checked the output and it's working like it should.
+
+===============================================================================================================================================================================================
+september 09 2024
+
+
+Namah Shivaya Sir/Mam
+
+work plan for 09/09/2024:
+
+
+    Understand the flow of the CVE_data table configuration column.
+    Establish a connection to retrieve data from the table.
+    Retrieve an array of arrays of columns and objects of arrays and field data.
+
+Thank you.
+
+understanding the flow of cve_data table  configuration column and establish connection and retrive the array of array of colum and object of array and  field data getting .
+
+
+Namah Shivaya Sir/Mam
+
+work update for 09/09/2024:
+
+learned the flow of the CVE_data table configuration column. Established a connection to retrieve data from the table.Retrieved an array of arrays of columns and objects of arrays and field data, and stored it into a HashMap.Printed the retrieved data.Used joins query to retrieve data from two tables and stored the fields inside an array of fields of an array of objects of fields into a HashMap.Printed the retrieved data.
+
+  i learned the flow of the CVE_data table configuration column. and 
+    Establish a connection to retrieve data from the table.
+    Retrieved an array of arrays of columns and objects of arrays and field data. and store into HashMap and print the data. and joins query used to retrive the two table data and get the fields inside array of fields of array of object of fields and and store into hasmap and print. 
+
+
+    
+
+
+============================================================================================================================================================================================
+Namah Shivaya Sir/Mam
+
+work plan for 10/09/2024:
+
+I will create a new dashboard REST controller and write two endpoints. I will retrieve the count of active and passive hosts from the host_info table based on timestamp and the count of low, medium, and high severity CVEs from the cve_data table.  writing SQL queries, implementing logic in the REST controller, and testing the endpoints.
+
+Thank you.
+
+
+Namah Shivaya Sir/Mam
+
+work update for 10/09/2024:
+
+ I created a new dashboard REST controller with two endpoints. The first endpoint retrieves the count of active and passive hosts from the host_info table based on timestamp, while the second endpoint retrieves the count of low, medium, and high severity CVEs from the cve_data table. I implemented the logic in the REST controller, wrote the necessary SQL queries, and tested the endpoints to ensure correct data retrieva
+ 
+Thank you.
+
+ 
+I  created a new dashboard REST controller and wrote two endpoints. I retrieved the count of active and passive hosts from the host_info table based on timestamp and the count of low, medium, and high severity CVEs from the cve_data table.  wrote SQL queries, implementing logic in the REST controller, and testing the endpoints.
+
+
+============================================================================================================================================================================================
+
+september 11 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 11/09/2024:
+
+	I will review and update the subsidiaries and scanner assignments in the database. I will attempt to delete the subsidiaries that meet my requirements, but before doing so, I will verify if  any table have the same subsidiaries name and scanner . If any column has the subsidiaries name and scanner, I will throw an error message "Failed: table has subsidiaries or scanner" and will not delete the subsidiaries or scanner. However, if any column does not have the subsidiaries name or scanner, I will proceed with deleting the subsidiaries or scanner. I avoid deleting subsidiaries and scanner that are already assigned to a table.
+
+Namah Shivaya Sir/Mam
+
+work update for 11/09/2024:
+
+
+ I reviewed and updated the subsidiaries and scanner assignments in the database.I attempted to delete subsidiaries that met the specified requirements, but prior to deletion, I verified if any tables had the same subsidiaries name and scanner. If any column had the subsidiaries name and scanner, I threw an error message "Failed: table has subsidiaries or scanner" and did not delete the subsidiaries or scanner. However, if any column did not have the subsidiaries name or scanner, I proceeded with deleting the subsidiaries or scanner, ensuring that I avoided deleting subsidiaries and scanners that were already assigned to a table. 
+
+
+
+============================================================================================================================================================================================
+september 13 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 13/09/2024:
+
+
+I will create common search queries for the table  columns in the database, allowing users to search for specific data by serial number,version, model, manufacturer, and socket type. I will show a search bar in the frontend that displays the search results in a table or list format, and allows users to sort the data by clicking on a column header.
+
+work update for 13/09/2024:
+
+I have successfully implemented the search functionality in the backend, which retrieves data from three tables: adv_scan_table, cve_data, and port_scan_data. When a user enters the first letter of the search query, the corresponding data is retrieved and displayed.
+
+============================================================================================================================================================================================
+september 18/09/2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 18/09/2024:
+
+The remaining implementation of the search functionality, focusing on dynamically creating search queries that can handle complex data structures such as arrays of objects, objects with arrays of fields, and nested objects. I will design and implement a flexible and it supports various data formats and structures.l
+
+today rest of implementaion and dynamically search query create like array of object of data or object of array of field of object of , etc... 
+
+Namah Shivaya Sir/Mam
+
+work update for 18/09/2024:
+
+ I have completed the remaining implementation of the search functionality, which now dynamically creates search queries capable of handling complex data structures such as arrays of objects, objects with arrays of fields, and nested objects.Additionally, I have modified the HostDao repository to accurately track active and passive counts.
+
+============================================================================================================================================================================================
+september 19/09/2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 19/09/2024:
+
+	Add new functionality to the Host Table to include Latitude and Longitude columns, and modify the data retrieval process to combine and display existing data along with the new location information.
+	
+	my task is add new functionaliy on host table latitude and langititude. and also while retriving data latitude and langitude also combine and show existing data.
+my task is add new functionaliy on host table latitude and langititude. and also while retriving data latitude and langitude also combine and show existing data.Aditionaly i did concise the existing code
+Template Paragraph:
+
+"As part of the enhancement to the Host Table, I will add two new columns, Latitude and Longitude, to store the geographical coordinates of each host. This will enable the system to provide location-based information and improve data analysis capabilities. To achieve this, I will modify the existing data retrieval process to combine the new location data with the existing host information, ensuring seamless integration and accurate representation of host locations. The updated Host Table will provide a comprehensive view of each host, including their geographical coordinates, enabling more informed decision-making and enhanced system functionality."
+
+
+Namah Shivaya Sir/Mam
+
+work update for 19/09/2024:
+
+
+    Added latitude and longitude fields to the getHostInfo().
+    Modified the data retrieval process to include the new fields.
+    Successfully combined and displayed the existing data with the newly added latitude and longitude information.
+    Concise the existing code to improve readability.
+
+Thank you.
+============================================================================================================================================================================================
+september 20 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 20/09/2024:
+
+My task is to establish a connection to a database, retrieve the CVE data, and store it for future use. I will create a class to handle CVE data retrieval and define methods to retrieve and store the data. Additionally, I will implement a query-based data retrieval system that allows users to retrieve specific CVE data based on their queries. query-based retrive i completed some part of work. 
+
+Thank you.
+my task is while running a program establish connection and get the cve_data table data and stored. whenever we want just call the class to get a data. based on user query retrive the all data related query.
+
+Namah Shivaya Sir/Mam
+
+work plan for 20/09/2024:
+I have made significant progress on establishing a connection to a database, retrieving CVE data, and storing it for future use. I have created a class to handle CVE data retrieval, defined methods to retrieve and store data, and implemented a query-based data retrieval system. The query-based retrieval system is some parts completed.
+
+Thank you.
+============================================================================================================================================================================================
+september 21 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 21/09/2024:
+
+i will make the privilege group name editable and continue working on the search query-based retrieval system. I will focus on modifying the existing code to allow users to edit the privilege group name. Additionally, I will continue developing the search query-based retrieval system.
+
+Thank you.
+my task is privilege_group name change to editable. and also continue the rest of the search query based retrivel data.
+
+Namah Shivaya Sir/Mam
+
+work update for 21/09/2024:
+
+I successfully made the privilege group name editable. I continued working on the search query-based retrieval system , I am pleased to report that I have completed some parts of the search query-based retrieval system, and I will continue to work on its development.
+
+i will make the privilege group name editable and continue working on the search query-based retrieval system. I will focus on modifying the existing code to allow users to edit the privilege group name. Additionally, I will continue developing the search query-based retrieval system. include this points also i completed search query based retrinve some parts.
+============================================================================================================================================================================================
+
+september 23 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 23/09/2024:
+
+I will be focusing on the task of retrieving data from the adv_scan_linux_table. My objective is to continue working on search query-based data retrieval, ensuring that all data meeting the specified conditions is successfully retrieved. I will meticulously execute the search queries to extract the relevant information from the table.aditionally  i did while running program change role name it doesn't affect, fixit the problem.
+
+i will be continue search query based retrivel data from adv_scan_linux_table. retriving data meat the condition and all data retrive.  
+
+Namah Shivaya Sir/Mam
+
+work update for 23/09/2024:
+
+My primary focus has been on retrieving data from the adv_scan_linux_table. I have executed search queries to extract relevant information from the table. Additionally, I resolved an issue where changing the role name did not affect the program's execution. The program now functions as expected.
+
+
+I will be focusing on the task of retrieving data from the adv_scan_linux_table. My objective is to continue working on search query-based data retrieval, ensuring that all data meeting the specified conditions is successfully retrieved. I will meticulously execute the search queries to extract the relevant information from the table.aditionally  i did while running program change role name it doesn't affect, fixit the problem.
+
+My primary focus has been on retrieving data from the adv_scan_linux_table. I have executed search queries to extract relevant information from the table. Additionally, I resolved an issue where changing the role name did not affect the program's execution. The program now functions as expected.
+
+============================================================================================================================================================================================
+
+september 24 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 24/09/2024:
+
+To add host information data to the system and store the relevant details in the scan details table.Retrieve the host information data from the designated source.Extract the job ID, network, date, and status field from the retrieved data. Copy the extracted data and prepare it for storage in the scan details table. Store the copied data in the scan details table.
+
+while adding host info data. getting the job id, network , datate, stause field copy the data and store scan_details table. 
+
+To add host information data to the system and store the relevant details in the scan details table.Retrieve the host information data from the designated source.Extract the job ID, network, date, and status field from the retrieved data. Copy the extracted data and prepare it for storage in the scan details table. Store the copied data in the scan details table. 
+
+Namah Shivaya Sir/Mam
+
+work update for 24/09/2024:
+
+    Retrieved host information data from the designated source.
+    Extracted job ID, network, date, and status field from the retrieved data.
+    Copied and prepared the extracted data for storage in the scan details table.
+    Successfully stored the copied data in the scan details table.
+    Additionally, i did search-based query retrieval.
+
+To add host information data to the system and store the relevant details in the scan details table.Retrieve the host information data from the designated source.Extract the job ID, network, date, and status field from the retrieved data. Copy the extracted data and prepare it for storage in the scan details table. Store the copied data in the scan details table. Additionally i did search based query retrival.
+============================================================================================================================================================================================
+september 25 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 25/09/2024:
+
+    Create a REST Controller to handle search-based retrieval queries.
+    Define a Service class to encapsulate the business logic for search-based retrieval.
+    Implement a method in the Service class to execute the search-based retrieval query.
+    Integrate the Service class with the REST Controller to handle incoming requests.
+    Ensure the search-based retrieval query method is properly tested and validated.
+
+	To create restcontroller and  service class to define the search based retrival query method .
+
+Namah Shivaya Sir/Mam
+
+work update for 25/09/2024:
+
+	Created a REST Controller to handle search-based retrieval queries.
+	Defined a Service class to encapsulate the business logic for search-based retrieval.
+	Identified an issue with the download functionality, where clicking the download button was not working as expected.
+	
+	Thank you.
+============================================================================================================================================================================================
+september 26 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 26/09/2024:
+
+ I will analyze the search-based query retrieval existing code, debugging and checking each step to understand the flow and identify the classes used in the code. I will review the logics and algorithms employed in the code to ensure a thorough understanding. Additionally, I will modify the file upload flow to retrieve the ID from the frontend, store the file in the table, and then enable the download button to retrieve the uploaded file and facilitate its download.
+ 
+today my task is analyze search based query retrivel existing code. and debug and check each steps and understand the flow and what are the classes they used in code. and logics.
+
+Namah Shivaya Sir/Mam
+
+work update for 26/09/2024:
+Timings: 
+08:45am to 01:00pm
+01:35pm to 7:00pm
+
+ I fixed the file upload issue and successfully saved the file, making the download button functional.
+ I also wrote and tested a search query, which is still a work in progress.
+ However, I encountered a challenge when trying to retrieve a large amount of data, which resulted in an OutOfMemory error.
+ I am currently working to optimize the query to handle large data sets and resolve this issue.
+============================================================================================================================================================================================
+september 27 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 27/09/2024:
+
+9:00 to 1:00 Task wil fix the outOfMemory problem while retriving data.  while retriving data large amount of data into chnuks and split the data. above 1:30 search based query for domain_new_metadata_dist_table and ssl_cerificate_table both combine show the result. 
+give me template for work plan for today
+Namah Shivaya Sir/Mam
+
+work plan for 27/09/2024:
+Fix OutOfMemory Problem while Retrieving Data (9:00 AM - 1:00 PM)
+    Resolve the OutOfMemory issue when retrieving large amounts of data
+    Approach:
+        Retrieve data in chunks to avoid memory overload
+        Split the data into manageable segments
+    Expected Outcome: Successful retrieval of data without memory issues
+
+ Search-Based Query for Domain_New_Metadata_Dist_Table and SSL_Certificate_Table (1:30 PM to 7:00) 
+
+Task Name: Complete Project Report
+        Description: Finalize and submit project report to client
+        Priority: High
+        Estimated Time: 2 hours
+        Deadline: End of day today
+
+
+Task Update:
+    Task Name: Complete Project Report
+        Status: In Progress
+        Progress: Completed 50% of the report, awaiting feedback from team members
+        Next Steps: Finalize report and submit to client by end of day
+        Challenges: None
+        
+        
+Namah Shivaya Sir/Mam
+
+work plan for 27/09/2024:     
+Timings: 
+9:00 to 13:06
+13:39 to 7:30
+        
+    Fixed the OutOfMemory problem when retrieving large amounts of data by breaking it down into smaller parts to avoid overload.
+    Created search-based queries for the Domain_New_Metadata_Dist_Table and SSL_Certificate_Table using LIMIT and OFFSET to increase performance and enable faster and more accurate data analysis.
+
+============================================================================================================================================================================================
+september 30 2024
+
+Namah Shivaya Sir/Mam
+
+work plan for 30/09/2024:
+
+Extract the required data from the combined table.Review the code for syntax errors, logical errors, and performance bottlenecks.Test the code with sample data to identify logical errors..Optimize the query performance by limiting the amount of data retrieved. Use OFFSET to skip a specified number of rows before starting the retrieval.Use LIMIT to restrict the number of rows returned.Combine OFFSET and LIMIT to retrieve a specific range of rows.
+
+	combine two tables and retrive the data. validating the code and improve performance using offset and limit. 
+
+Namah Shivaya Sir/Mam,
+
+Work Update for 30/09/2024:
+Timings: 
+9:00 to 1:00
+1:36 to 7:40
+
+I have successfully extracted the required data from the combined table. 
+I reviewed the code for syntax errors, logical errors, and performance bottlenecks, and tested it with sample data to identify logical errors. I optimized the query performance by limiting the amount of data retrieved using OFFSET to skip a specified number of rows before starting the retrieval and LIMIT to restrict the number of rows returned. I also combined OFFSET and LIMIT to retrieve a specific range of rows. However, I faced a challenging issue where retrieving the last data in the table took too much time and returned a timeout error. I am currently working on resolving this issue to ensure efficient data retrieval.
+
+Thank you."
+Enable OpenAI, Amazon Bedrock models or Gemini in the
+.
+You’ll need a sign-in account to attach an imag
