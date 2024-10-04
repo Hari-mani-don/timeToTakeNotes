@@ -974,7 +974,11 @@ To modfify existing code logic to combine two tables and retrive data using clic
 Namah Shivaya Sir/Mam,
 
 Work update for 04/10/2024:
-To modfify existing code logic to combine two tables and retrive data using clickhouse inbuilt function 
+
+I have successfully modified the existing code logic to combine two tables and retrieve data using ClickHouse's inbuilt function.(9:00 to 01:00 and 1:39 to 5:00)
+Additionally, I have updated the endpoint /se/history/data to modify the existing logic to retrieve data based on the year.(5:00 to 7:)
+
+Thank you.
 
 ============================================================================================================================================================================================
 
