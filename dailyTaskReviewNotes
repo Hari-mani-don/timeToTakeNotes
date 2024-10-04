@@ -917,3 +917,78 @@ Thank you."
 Enable OpenAI, Amazon Bedrock models or Gemini in the
 .
 You’ll need a sign-in account to attach an imag
+============================================================================================================================================================================================
+October 01 2024
+ 
+Namah Shivaya Sir/Mam,
+
+Work plan for 01/10/2024:
+
+Today, I will focus on resolving the performance issue related to retrieving the last data in the table, which is currently resulting in a timeout error.
+Additionally, I will work on implementing an edit option endpoint for the file download REST controller. i review the file download rest controller code.
+
+Thank you.
+
+ I faced a challenging issue where retrieving the last data in the table took too much time and returned a timeout error. another task is write a edit option endpoint on file download restcontroller.  
+Thank you.
+
+ I fixed a problem that was causing a timeout error when trying to get the latest data from a table. I made some changes to the database query to make it run faster.
+ 
+I also reviewed the code for the file download REST controller
+============================================================================================================================================================================================
+October 03 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 03/10/2024:
+
+To modify the existing search-based retrieve query logic to utilize ClickHouse's inbuilt functions, improving the search functionality and performance. The current approach uses a query with the >= operator and a wildcard, which can be inefficient and case-sensitive.
+
+modifiy search based retrive query logic using clickhouse inbuilt functions.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 03/10/2024:
+
+I updated the code to make it work better and faster. I used ClickHouse's built-in tools to help with this. Now, the code gets the data it needs more easily and quickly. 
+
+This change has improved the overall performance of the system. The updated code is now more efficient and reliable.
+
+Thank you.
+
+modified the existing code and clickhouse inbuilt functuion is used to efficiently handle the query and retriving data.
+============================================================================================================================================================================================
+october 04 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 04/10/2024:
+
+ Modify the existing code logic to combine the two tables and retrieve the required data using ClickHouse's inbuilt functions.
+ Test and verify the modified code to ensure it meets the requirements and produces the expected results.
+
+Thank you.
+
+To modfify existing code logic to combine two tables and retrive data using clickhouse inbuilt function 
+
+Namah Shivaya Sir/Mam,
+
+Work update for 04/10/2024:
+To modfify existing code logic to combine two tables and retrive data using clickhouse inbuilt function 
+
+============================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
