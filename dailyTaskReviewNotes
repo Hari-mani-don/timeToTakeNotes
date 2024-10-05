@@ -981,6 +981,18 @@ Additionally, I have updated the endpoint /se/history/data to modify the existin
 Thank you.
 
 ============================================================================================================================================================================================
+october 5 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 05/10/2024:
+
+To adjust the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month.Analyze the current endpoint structure and database schema.Modify the query parameters to accept year as the primary filter.Implement pagination using offset and limit to efficiently manage data retrieval.
+    Review the current logic and query structure of the endpoint.Modify the query to fetch data for the entire year upon request.Ensure compatibility with the changes made to the /se/history/timestamp endpoint.
+    
+Thank you.    
+/se/history/timestamp   will analyze the endpoint. modify the quey and logic based on year not for month retriving data and also pageable the data use offset and limit. followed by the /se/history/data endpoint modify the query based on year retrive entire data insted of month.
+
 
 
 
