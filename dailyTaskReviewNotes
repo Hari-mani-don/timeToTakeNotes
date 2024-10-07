@@ -993,10 +993,35 @@ To adjust the query and logic of the /se/history/timestamp endpoint to retrieve 
 Thank you.    
 /se/history/timestamp   will analyze the endpoint. modify the quey and logic based on year not for month retriving data and also pageable the data use offset and limit. followed by the /se/history/data endpoint modify the query based on year retrive entire data insted of month.
 
+Namah Shivaya Sir/Mam,
+
+Work update for 05/10/2024:
+
+ adjusted the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month. This involved a thorough analysis of the current endpoint structure and database schema to ensure seamless integration with the changes.
+
+To achieve this, I modified the query parameters to accept year as the primary filter, allowing for more efficient data retrieval. Additionally, I implemented pagination using offset and limit to manage large datasets and prevent performance issues.
+
+ I reviewed the current logic and query structure of the endpoint and made necessary modifications to fetch data for the entire year upon request. This ensures that the endpoint is compatible with the changes made and can handle requests for yearly data retrieval.
+ 
+ Thank you.
+============================================================================================================================================================================================
+october 7 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 07/10/2024:   
+
+	To retrieve the count of data for a specific IP address and port, grouped by week intervals, from multiple tables. The input parameters include the IP address and port to filter by, as well as the list of tables to query. The output is a table with two columns: timestamp and count.
+
+Thank you.
+
+adjusted the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month Modify the existing query 
 
 
 
 
+
+============================================================================================================================================================================================
 
 
 
