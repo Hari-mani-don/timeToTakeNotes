@@ -1011,16 +1011,43 @@ Namah Shivaya Sir/Mam,
 
 Work plan for 07/10/2024:   
 
-	To retrieve the count of data for a specific IP address and port, grouped by week intervals, from multiple tables. The input parameters include the IP address and port to filter by, as well as the list of tables to query. The output is a table with two columns: timestamp and count.
+	To retrieve the count of data for a specific IP address and port, grouped by week intervals, from multiple tables. The input parameters include the IP address and port to filter by, as well as the list of tables to query. The output is a table with two columns: timestamp and count. and also technologies data added in response. Additionaly /se/search/ssl modified some logic 
 
 Thank you.
 
 adjusted the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month Modify the existing query 
 
 
+I successfully retrieved the count of data for a specific IP address and port, grouped by week intervals, from multiple tables. 
+
+I filtered the data using the input parameters: IP address, port, and list of tables to query. The output is a table with two columns: timestamp and count. Additionally, I added technologies data to the response as requested. 
 
 
+Namah Shivaya Sir/Mam,
 
+Work update for 07/10/2024:
+Timings :
+9:00 to 01:30
+01:49 to 07:40
+
+	I successfully retrieved the count of data for a specific IP address and port, grouped by week intervals, from multiple tables.
+ 	I filtered the data using the input parameters: IP address, port, and list of tables to query. The output is a table with two columns: timestamp and count.
+  	Additionally, I added technologies data to the response as requested. I also modified the logic in /se/search/ssl as per the requirements. The updated table with technologies data is now ready for review and testing. I will verify the accuracy of the data retrieved and filtered to ensure its correctness.
+
+
+============================================================================================================================================================================================
+october 8 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 08/10/2024: 
+
+Update the query to filter data for the current year, using a dynamic date range that only includes months up to the current month.
+    Validate the /se/history/timestamp endpoint logic to ensure it returns data only for the current year, up to the current month.
+    Test both endpoints thoroughly to ensure they behave as expected and return accurate results.
+    
+    
+	/se/history/data modify the query based one year generate query logic. and  validate the /se/history/timestamp endpoint logic, where current year have only one month means till the current month data only show in output. give me the template and paragraph , aditionaly key points.
 ============================================================================================================================================================================================
 
 
