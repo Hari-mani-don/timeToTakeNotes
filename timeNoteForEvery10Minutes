@@ -563,6 +563,323 @@ september 30 2024
 15:19 to 19:44 -> whenever we are increasing performance should create table like hashmap. and also l am trying to troubleshoot the proble while retrive huge amount of data.
 =======================================================================================================================================================================================
 
+October 01 2024
+ 
+Namah Shivaya Sir/Mam,
+
+Work plan for 01/10/2024:
+
+Today, I will focus on resolving the performance issue related to retrieving the last data in the table, which is currently resulting in a timeout error.
+Additionally, I will work on implementing an edit option endpoint for the file download REST controller. i review the file download rest controller code.
+
+Thank you.
+
+ I faced a challenging issue where retrieving the last data in the table took too much time and returned a timeout error. another task is write a edit option endpoint on file download restcontroller.  
+Thank you.
+
+ I fixed a problem that was causing a timeout error when trying to get the latest data from a table. I made some changes to the database query to make it run faster.
+ 
+I also reviewed the code for the file download REST controller
+============================================================================================================================================================================================
+October 03 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 03/10/2024:
+
+To modify the existing search-based retrieve query logic to utilize ClickHouse's inbuilt functions, improving the search functionality and performance. The current approach uses a query with the >= operator and a wildcard, which can be inefficient and case-sensitive.
+
+modifiy search based retrive query logic using clickhouse inbuilt functions.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 03/10/2024:
+
+I updated the code to make it work better and faster. I used ClickHouse's built-in tools to help with this. Now, the code gets the data it needs more easily and quickly. 
+
+This change has improved the overall performance of the system. The updated code is now more efficient and reliable.
+
+Thank you.
+
+modified the existing code and clickhouse inbuilt functuion is used to efficiently handle the query and retriving data.
+============================================================================================================================================================================================
+october 04 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 04/10/2024:
+
+ Modify the existing code logic to combine the two tables and retrieve the required data using ClickHouse's inbuilt functions.
+ Test and verify the modified code to ensure it meets the requirements and produces the expected results.
+
+Thank you.
+
+To modfify existing code logic to combine two tables and retrive data using clickhouse inbuilt function 
+
+Namah Shivaya Sir/Mam,
+
+Work update for 04/10/2024:
+
+I have successfully modified the existing code logic to combine two tables and retrieve data using ClickHouse's inbuilt function.(9:00 to 01:00 and 1:39 to 5:00)
+Additionally, I have updated the endpoint /se/history/data to modify the existing logic to retrieve data based on the year.(5:00 to 7:)
+
+Thank you.
+============================================================================================================================================================================================
+october 5 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 05/10/2024:
+
+To adjust the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month.Analyze the current endpoint structure and database schema.Modify the query parameters to accept year as the primary filter.Implement pagination using offset and limit to efficiently manage data retrieval.
+    Review the current logic and query structure of the endpoint.Modify the query to fetch data for the entire year upon request.Ensure compatibility with the changes made to the /se/history/timestamp endpoint.
+    
+Thank you.    
+/se/history/timestamp   will analyze the endpoint. modify the quey and logic based on year not for month retriving data and also pageable the data use offset and limit. followed by the /se/history/data endpoint modify the query based on year retrive entire data insted of month.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 05/10/2024:
+
+ adjusted the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month. This involved a thorough analysis of the current endpoint structure and database schema to ensure seamless integration with the changes.
+
+To achieve this, I modified the query parameters to accept year as the primary filter, allowing for more efficient data retrieval. Additionally, I implemented pagination using offset and limit to manage large datasets and prevent performance issues.
+
+ I reviewed the current logic and query structure of the endpoint and made necessary modifications to fetch data for the entire year upon request. This ensures that the endpoint is compatible with the changes made and can handle requests for yearly data retrieval.
+ 
+ Thank you.
+============================================================================================================================================================================================
+october 7 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 07/10/2024:   
+
+	To retrieve the count of data for a specific IP address and port, grouped by week intervals, from multiple tables. The input parameters include the IP address and port to filter by, as well as the list of tables to query. The output is a table with two columns: timestamp and count. and also technologies data added in response. Additionaly /se/search/ssl modified some logic 
+
+Thank you.
+
+adjusted the query and logic of the /se/history/timestamp endpoint to retrieve data based on the year instead of the month Modify the existing query 
+
+
+I successfully retrieved the count of data for a specific IP address and port, grouped by week intervals, from multiple tables. 
+
+I filtered the data using the input parameters: IP address, port, and list of tables to query. The output is a table with two columns: timestamp and count. Additionally, I added technologies data to the response as requested. 
+
+
+Namah Shivaya Sir/Mam,
+
+Work update for 07/10/2024:
+Timings :
+9:00 to 01:30
+01:49 to 07:40
+
+	I successfully retrieved the count of data for a specific IP address and port, grouped by week intervals, from multiple tables.
+ 	I filtered the data using the input parameters: IP address, port, and list of tables to query. The output is a table with two columns: timestamp and count.
+  	Additionally, I added technologies data to the response as requested. I also modified the logic in /se/search/ssl as per the requirements. The updated table with technologies data is now ready for review and testing. I will verify the accuracy of the data retrieved and filtered to ensure its correctness.
+
+
+============================================================================================================================================================================================
+october 8 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 08/10/2024: 
+
+Update the query to filter data for the current year, using a dynamic date range that only includes months up to the current month.
+    Validate the /se/history/timestamp endpoint logic to ensure it returns data only for the current year, up to the current month.
+    Test both endpoints thoroughly to ensure they behave as expected and return accurate results.
+    
+    
+	/se/history/data modify the query based one year generate query logic. and  validate the /se/history/timestamp endpoint logic, where current year have only one month means till the current month data only show in output. give me the template and paragraph , aditionaly key points.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 08/10/2024: 
+
+	I updated the query to filter data for the current year, using a dynamic date range that only includes months up to the current month. This ensures that the data returned is relevant and up-to-date. Additionally, I validated the logic of the /se/history/timestamp endpoint to ensure it returns data only for the current year, up to the current month. I also thoroughly tested both endpoints to ensure they behave as expected and return accurate results.(9:00 to 10:50)
+	I identified and fixed an issue with the /se/get/domain/data endpoint, which was incorrectly including data in the response. (10:50 to 01:00)
+ 
+ 	I have also gained a thorough understanding of the flow and logic of the NS Record, CNAME, Technologies, and Country Distribution endpoints. (01:31 to 7:30) 
+
+Thank you.
+Update the query to filter data for the current year, using a dynamic date range that only includes months up to the current month.
+    Validate the /se/history/timestamp endpoint logic to ensure it returns data only for the current year, up to the current month.
+    Test both endpoints thoroughly to ensure they behave as expected and return accurate results. addititonaly, /se/get/domain/data endpoint data shoudn't in response, so fix that problem and validate the rest. and also i understood the flow of these rest  ns record,cname,technologies and country distribution rest end point.
+    
+============================================================================================================================================================================================
+october 9 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 09/10/2024: 
+
+	Anaylyze the endpoints named ssl info, vulnerabilities, and dendorgam , and also understand the flow of the code, logic, what table is the corresponding table for each.
+I will analyze the endpoints named SSL Info, Vulnerabilities, and Dendrogram. 
+
+	Identify the input parameters, request methods, and expected response formats for each endpoint.
+Analyze the endpoint logic, including any data processing, validation, and error handling mechanisms.Identify the corresponding tables in the database for each endpoint, including any relationships between tables.
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 09/10/2024:
+
+I focused on analyzing the endpoints named SSL Info, which involved reviewing input parameters and request methods.(09:00 to 10:30)
+
+I successfully added the total count feature when retrieving data in the /se/search/ssl endpoint.(10:30 to 11:00).
+
+Currently, I am working on retrieving data based on product_vul_mapping, which is in progress.(11:00 to 01:00 and 01:45 to 7:30) 
+
+Thank you.
+
+I analyzed the endpoints named SSL Info ,which is input parameters, request methods. I added the total count when retriving the data in /se/search/ssl endpoint. also currently i am working based on product_vul_mapping retriving data in progress this.
+
+============================================================================================================================================================================================
+october 10 2024 8:59
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 10/10/2024:
+
+Add a new search column retrieving data based on product_vul_mapping, add SSL data, and validate the added functionality.
+
+Design and develop a database query that retrieves the required data from the product_vul_mapping table. This will involve writing a SQL query that efficiently extracts the necessary information.
+
+Test the search functionality with various scenarios to ensure it works correctly in different situations.
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 10/10/2024:
+
+I have successfully added a new search column to retrieve data based on product_vul_mapping, incorporated SSL data, and validated the added functionality. I designed and developed a database query to efficiently extract the required data from the product_vul_mapping table and tested the search functionality with various scenarios to ensure its correctness.(9:00 to 01:00)
+
+Currently, I am working on retrieving SSL and domain data uniquely with count return.(13:40 to 6:30)
+
+Thank you.
+
+Add a new search column retrieving data based on product_vul_mapping, add SSL data, and validate the added functionality.
+Design and develop a database query that retrieves the required data from the product_vul_mapping table. This will involve writing a SQL query that efficiently extracts the necessary information.
+Test the search functionality with various scenarios to ensure it works correctly in different situations.
+currently i am working retring ssl and domain data unique with count return
+
+Thank you.
+
+	add new search column retrieving data based on product_vul_mapping, and also validate the added functionality. 
+============================================================================================================================================================================================
+october 11 2024 9:10
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 11/10/2024:
+
+ I will focus on retrieving and analyzing data from various sources, including TLDs, servers, and technologies. My objective is to extract unique data points and count the occurrences of each. After valid the data ensure data retruned.Following a thorough validation process, I will ensure that the retrieved data is accurate, complete, and reliable.
+ 
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 11/10/2024:
+
+I focused on retrieving and analyzing data from various sources, including TLDs, servers, and technologies. My objective was to extract unique data points and count the occurrences of each.
+I successfully retrieved data from all specified sources and analyzed it to extract the required information.
+Following a thorough validation process, I ensured that the retrieved data is accurate, complete, and reliable.(9:00 to 1:00 and 1:50 to 7:30)
+
+Thank you.
+retring tld, server,technology etc.. retrun the unique data and coutn for each.
+
+
+============================================================================================================================================================================================
+october 14 2024 10:05
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 14/10/2024:
+weak_cypers end point data return data weak_protocols insted of version. and also limit and offset used to retrun and optimize efficiently. After will refer the /totalDomain-download endpoint and download the entire data rest generate.
+write a work plan paragrph and key points use simple words
+
+
+I will focus on optimizing the weak_cypers endpoint to return data more efficiently. Specifically, I will modify the endpoint to return data in a format that includes weak_protocols instead of version. Additionally, I will implement limit and offset parameters to enable efficient data retrieval. After completing this task, 
+I  reviewrf the /totalDomain-download endpoint and generate the entire data for download in progress.
+Additinally search based query some issues fixed like version not work
+
+Namah Shivaya Sir/Mam,
+
+Work update for 14/10/2024:
+
+I will focus on optimizing the weak_cypers endpoint to return data more efficiently. Specifically, I will modify the endpoint to return data in a format that includes weak_protocols instead of version. Additionally, I will implement limit and offset parameters to enable efficient data retrieval. After completing this task, 
+I  reviewrf the /totalDomain-download endpoint and generate the entire data for download in progress.
+Additinally search based query some issues fixed like version not work
+
+give me work update version in paragraph and keypoints
+
+Namah Shivaya Sir/Mam,
+
+Work update for 14/10/2024:
+
+my primary focus was on optimizing the weak_cypers endpoint to enhance data retrieval efficiency. I successfully modified the endpoint to return data in a format that includes weak_protocols instead of version, ensuring a more streamlined and effective data retrieval process. Furthermore, I implemented limit and offset parameters, enabling efficient data retrieval and reducing the load on the system.(9:00 to 11:30)
+
+In addition to this, I reviewed the /totalDomain-download endpoint and generated the entire data for download, which is currently in progress.(11:30 to 01:00 and 01:40 to 2:40 and 4:00 to 7:40) 
+I also addressed some issues with search-based queries, specifically resolving the problem where the version was not functioning correctly.(2:40 to 4:00)
+
+Thank you.
+============================================================================================================================================================================================
+october 15 2024 8:54
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 15/10/2024:
+
+I will fix the search query problems and then check to make sure they are working correctly. 
+
+After that, I will continue downloading all the data in a special format called CVE almost complete. additionally i /technologies endpoint response data i changed. also currently /history/timestamp endpoint query i changed .
+
+Thank you.
+
+	fix the search query bugs and after that validate. after i will continue the entire data download on cve formate. and then validate the data is completely generate. 
+
+Namah Shivaya Sir/Mam,
+
+Work update for 15/10/2024:
+
+    Resolved search query issues and verified their functionality to ensure they are working correctly.(9:00 to 11:00)
+    Continued downloading data in the CVE format, with the majority of the data now complete.(11:00 to 1:00 and 1:40 to 2:30)
+    Modified the /technologies endpoint response data to improve its accuracy and efficiency.(2:30 to 4:00)
+    Updated the /history/timestamp endpoint query.(4:00 to 7:40)
+
+Thank you.
+============================================================================================================================================================================================
+october 16 2024 8:49
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 16/10/2024:
+
+Continue downloading data in the CVE format and validate the data to ensure correct returns.Download the required data in the CVE format from the designated source.Validate the downloaded data to ensure it is accurate and complete.Verify the data to ensure it is correctly formatted and meets the required standards
+
+Thank you.
+
+	Continue downloading data in the CVE format and then validate the data ensure retrun correctly.
+	
+
+    Data Download: Download the required data in the CVE format from the designated source.
+    Data Validation: Validate the downloaded data to ensure it is accurate and complete.
+    Data Verification: Verify the data to ensure it is correctly formatted and meets the required standards.
+    Data Review: Review the validated data to identify any discrepancies or errors.
+    Data Correction: Correct any errors or discrepancies found during the review process.
+   Data Upload: Upload the validated and corrected data to the designated repository.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 16/10/2024:
+
+I have continued to download data in the CVE format and validate it to ensure correct returns. Specifically, I have downloaded the required data from the designated source and verified its accuracy and completeness. 
+Additionally, I have checked the data to ensure it is correctly formatted and meets the required standards.(9:00 to 1:00 and 1:40 to 7:00)
+
+Thank you.
 
 
 
@@ -576,4 +893,3 @@ september 30 2024
 
 
 
-sdf
