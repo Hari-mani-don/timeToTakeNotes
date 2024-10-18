@@ -918,7 +918,11 @@ Enable OpenAI, Amazon Bedrock models or Gemini in the
 .
 You’ll need a sign-in account to attach an imag
 ============================================================================================================================================================================================
-October 01 2024
+
+binarydefender441@gmail.com h93mani486@iraH
+
+============================================================================================================================================================================================
+ October 01 2024
  
 Namah Shivaya Sir/Mam,
 
@@ -979,7 +983,6 @@ I have successfully modified the existing code logic to combine two tables and r
 Additionally, I have updated the endpoint /se/history/data to modify the existing logic to retrieve data based on the year.(5:00 to 7:)
 
 Thank you.
-
 ============================================================================================================================================================================================
 october 5 2024
 
@@ -1048,6 +1051,194 @@ Update the query to filter data for the current year, using a dynamic date range
     
     
 	/se/history/data modify the query based one year generate query logic. and  validate the /se/history/timestamp endpoint logic, where current year have only one month means till the current month data only show in output. give me the template and paragraph , aditionaly key points.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 08/10/2024: 
+
+	I updated the query to filter data for the current year, using a dynamic date range that only includes months up to the current month. This ensures that the data returned is relevant and up-to-date. Additionally, I validated the logic of the /se/history/timestamp endpoint to ensure it returns data only for the current year, up to the current month. I also thoroughly tested both endpoints to ensure they behave as expected and return accurate results.(9:00 to 10:50)
+	I identified and fixed an issue with the /se/get/domain/data endpoint, which was incorrectly including data in the response. (10:50 to 01:00)
+ 
+ 	I have also gained a thorough understanding of the flow and logic of the NS Record, CNAME, Technologies, and Country Distribution endpoints. (01:31 to 7:30) 
+
+Thank you.
+Update the query to filter data for the current year, using a dynamic date range that only includes months up to the current month.
+    Validate the /se/history/timestamp endpoint logic to ensure it returns data only for the current year, up to the current month.
+    Test both endpoints thoroughly to ensure they behave as expected and return accurate results. addititonaly, /se/get/domain/data endpoint data shoudn't in response, so fix that problem and validate the rest. and also i understood the flow of these rest  ns record,cname,technologies and country distribution rest end point.
+    
+============================================================================================================================================================================================
+october 9 2024
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 09/10/2024: 
+
+	Anaylyze the endpoints named ssl info, vulnerabilities, and dendorgam , and also understand the flow of the code, logic, what table is the corresponding table for each.
+I will analyze the endpoints named SSL Info, Vulnerabilities, and Dendrogram. 
+
+	Identify the input parameters, request methods, and expected response formats for each endpoint.
+Analyze the endpoint logic, including any data processing, validation, and error handling mechanisms.Identify the corresponding tables in the database for each endpoint, including any relationships between tables.
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 09/10/2024:
+
+I focused on analyzing the endpoints named SSL Info, which involved reviewing input parameters and request methods.(09:00 to 10:30)
+
+I successfully added the total count feature when retrieving data in the /se/search/ssl endpoint.(10:30 to 11:00).
+
+Currently, I am working on retrieving data based on product_vul_mapping, which is in progress.(11:00 to 01:00 and 01:45 to 7:30) 
+
+Thank you.
+
+I analyzed the endpoints named SSL Info ,which is input parameters, request methods. I added the total count when retriving the data in /se/search/ssl endpoint. also currently i am working based on product_vul_mapping retriving data in progress this.
+
+============================================================================================================================================================================================
+october 10 2024 8:59
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 10/10/2024:
+
+Add a new search column retrieving data based on product_vul_mapping, add SSL data, and validate the added functionality.
+
+Design and develop a database query that retrieves the required data from the product_vul_mapping table. This will involve writing a SQL query that efficiently extracts the necessary information.
+
+Test the search functionality with various scenarios to ensure it works correctly in different situations.
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 10/10/2024:
+
+I have successfully added a new search column to retrieve data based on product_vul_mapping, incorporated SSL data, and validated the added functionality. I designed and developed a database query to efficiently extract the required data from the product_vul_mapping table and tested the search functionality with various scenarios to ensure its correctness.(9:00 to 01:00)
+
+Currently, I am working on retrieving SSL and domain data uniquely with count return.(13:40 to 6:30)
+
+Thank you.
+
+Add a new search column retrieving data based on product_vul_mapping, add SSL data, and validate the added functionality.
+Design and develop a database query that retrieves the required data from the product_vul_mapping table. This will involve writing a SQL query that efficiently extracts the necessary information.
+Test the search functionality with various scenarios to ensure it works correctly in different situations.
+currently i am working retring ssl and domain data unique with count return
+
+Thank you.
+
+	add new search column retrieving data based on product_vul_mapping, and also validate the added functionality. 
+============================================================================================================================================================================================
+october 11 2024 9:10
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 11/10/2024:
+
+ I will focus on retrieving and analyzing data from various sources, including TLDs, servers, and technologies. My objective is to extract unique data points and count the occurrences of each. After valid the data ensure data retruned.Following a thorough validation process, I will ensure that the retrieved data is accurate, complete, and reliable.
+ 
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 11/10/2024:
+
+I focused on retrieving and analyzing data from various sources, including TLDs, servers, and technologies. My objective was to extract unique data points and count the occurrences of each.
+I successfully retrieved data from all specified sources and analyzed it to extract the required information.
+Following a thorough validation process, I ensured that the retrieved data is accurate, complete, and reliable.(9:00 to 1:00 and 1:50 to 7:30)
+
+Thank you.
+retring tld, server,technology etc.. retrun the unique data and coutn for each.
+
+
+============================================================================================================================================================================================
+october 14 2024 10:05
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 14/10/2024:
+weak_cypers end point data return data weak_protocols insted of version. and also limit and offset used to retrun and optimize efficiently. After will refer the /totalDomain-download endpoint and download the entire data rest generate.
+write a work plan paragrph and key points use simple words
+
+
+I will focus on optimizing the weak_cypers endpoint to return data more efficiently. Specifically, I will modify the endpoint to return data in a format that includes weak_protocols instead of version. Additionally, I will implement limit and offset parameters to enable efficient data retrieval. After completing this task, 
+I  reviewrf the /totalDomain-download endpoint and generate the entire data for download in progress.
+Additinally search based query some issues fixed like version not work
+
+Namah Shivaya Sir/Mam,
+
+Work update for 14/10/2024:
+
+I will focus on optimizing the weak_cypers endpoint to return data more efficiently. Specifically, I will modify the endpoint to return data in a format that includes weak_protocols instead of version. Additionally, I will implement limit and offset parameters to enable efficient data retrieval. After completing this task, 
+I  reviewrf the /totalDomain-download endpoint and generate the entire data for download in progress.
+Additinally search based query some issues fixed like version not work
+
+give me work update version in paragraph and keypoints
+
+Namah Shivaya Sir/Mam,
+
+Work update for 14/10/2024:
+
+my primary focus was on optimizing the weak_cypers endpoint to enhance data retrieval efficiency. I successfully modified the endpoint to return data in a format that includes weak_protocols instead of version, ensuring a more streamlined and effective data retrieval process. Furthermore, I implemented limit and offset parameters, enabling efficient data retrieval and reducing the load on the system.(9:00 to 11:30)
+
+In addition to this, I reviewed the /totalDomain-download endpoint and generated the entire data for download, which is currently in progress.(11:30 to 01:00 and 01:40 to 2:40 and 4:00 to 7:40) 
+I also addressed some issues with search-based queries, specifically resolving the problem where the version was not functioning correctly.(2:40 to 4:00)
+
+Thank you.
+============================================================================================================================================================================================
+october 14 2024 8:54
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 15/10/2024:
+
+I will fix the search query problems and then check to make sure they are working correctly. 
+
+After that, I will continue downloading all the data in a special format called CVE almost complete. additionally i /technologies endpoint response data i changed. also currently /history/timestamp endpoint query i changed .
+
+Thank you.
+
+	fix the search query bugs and after that validate. after i will continue the entire data download on cve formate. and then validate the data is completely generate. 
+
+Namah Shivaya Sir/Mam,
+
+Work update for 15/10/2024:
+
+    Resolved search query issues and verified their functionality to ensure they are working correctly.(9:00 to 11:00)
+    Continued downloading data in the CVE format, with the majority of the data now complete.(11:00 to 1:00 and 1:40 to 2:30)
+    Modified the /technologies endpoint response data to improve its accuracy and efficiency.(2:30 to 4:00)
+    Updated the /history/timestamp endpoint query.(4:00 to 7:40)
+
+Thank you.
+============================================================================================================================================================================================
+october 16 2024 8:49
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 16/10/2024:
+
+Continue downloading data in the CVE format and validate the data to ensure correct returns.Download the required data in the CVE format from the designated source.Validate the downloaded data to ensure it is accurate and complete.Verify the data to ensure it is correctly formatted and meets the required standards
+
+Thank you.
+
+	Continue downloading data in the CVE format and then validate the data ensure retrun correctly.
+	
+
+    Data Download: Download the required data in the CVE format from the designated source.
+    Data Validation: Validate the downloaded data to ensure it is accurate and complete.
+    Data Verification: Verify the data to ensure it is correctly formatted and meets the required standards.
+    Data Review: Review the validated data to identify any discrepancies or errors.
+    Data Correction: Correct any errors or discrepancies found during the review process.
+   Data Upload: Upload the validated and corrected data to the designated repository.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 16/10/2024:
+
+I have continued to download data in the CVE format and validate it to ensure correct returns. Specifically, I have downloaded the required data from the designated source and verified its accuracy and completeness. 
+Additionally, I have checked the data to ensure it is correctly formatted and meets the required standards.(9:00 to 1:00 and 1:40 to 7:00)
+
+Thank you.
 ============================================================================================================================================================================================
 october 17 2024 9:37
 
@@ -1116,7 +1307,17 @@ Thank you.
     Data inconsistencies or inaccuracies: I will investigate the source of the issue, correct the data, and re-generate the PDF document.
     Design or layout issues with the card layout: I will revisit the design and make adjustments as needed to ensure the layout is clear and organized.
     Any other unforeseen challenges that may impact the task: I will assess the issue, develop a plan to address it, and implement the necessary changes to ensure the task is completed successfully.
-============================================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
 
 
 
