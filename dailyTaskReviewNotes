@@ -1444,3 +1444,233 @@ Work update for 23/10/2024:
 
  Added domain data along with corresponding favicons. Validate the generated PDF document to ensure that the data is in the correct format and that all required fields are present.Test the generated PDF document to ensure that it meets the required specifications and that the data is accurate and complete.
 ============================================================================================================================================================================================
+Namah Shivaya Sir/Mam,
+
+Work plan for 24/10/2024:
+	Retrieving favicons data from the table and converting it to base64 format to display the favicon.
+	Validating the 	alignment and PDF document to ensure data accuracy and completeness.
+	Testing the PDF document to ensure it meets the required specifications.
+	Thank you.
+Continue designing card layout for domain search data in PDF format
+Validate alignment and PDF document for data accuracy and completeness
+Test PDF document to ensure it meets required specifications
+Get favicons data from table and convert base64 and show the favicon. 
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 24/10/2024:
+
+I have successfully completed the design of the card layout for domain search data in PDF format. Additionally, I have added domain data along with corresponding favicons to the layout. (9:00 to 1:10)
+
+I have thoroughly validated the alignment and PDF document to ensure data accuracy and completeness. Furthermore, I have tested the PDF document to ensure it meets the required specifications.(1:50 to 3:00)
+
+ I have also added product version and CVE IDs to the document. The updated PDF document is now ready for review. I have verified that all necessary information is included and accurately represented. 
+(3:00 to 7:40).
+
+Thank you.
+
+============================================================================================================================================================================================
+October 25 2024 7:57 am
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 25/10/2024:
+
+1.Integrate data from ClickHouse to MySQL using an entity class
+2.Add data related to products, TLD, and other relevant information to MySQL
+3.Design and implement a REST controller for searching and retrieving top 10 products
+4.Validate the REST controller and entity class to ensure they meet project requirements
+5.Test both components to identify and resolve any errors
+
+Thank you.
+
+i will add the data product, tld etc... on mysql from clickhouse to mysql using entitty class to do. then write a restcontroller based on search it shows the corresponding top 10 products. validate the restcontroller and entity class which is meet the requirement. test both are working any error are throws check.
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 25/10/2024:
+give me work update version of paragrapph for each 3 lines 
+
+I successfully integrated data from ClickHouse to MySQL using an entity class. Additionally, I populated the MySQL table with relevant information related to products, TLD, and other data.  demonstrating efficient data management and integration capabilities.
+
+Work Update for 25/10/2024 (11:00 to 1:10)
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 25/10/2024:
+
+(7:50 to 10:40)
+I successfully integrated data from ClickHouse to MySQL using an entity class. Additionally, I populated the MySQL table with relevant information related to products, TLD, and other data. This task demonstrated efficient data management and integration capabilities.
+
+(11:00 to 1:10)
+I designed and implemented a REST controller to facilitate searching and retrieving the top 10 products, ensuring a robust and efficient data retrieval mechanism. The controller was also equipped to handle exceptions, guaranteeing a smooth user experience and minimizing errors.
+
+(1:50 to 5:10)
+I thoroughly validated the REST controller and entity class to ensure they met project requirements, verifying the accuracy and reliability of the implemented solutions. Through  testing, I identified and resolved errors, ensuring the components functioned as intended and delivered the expected results.
+
+============================================================================================================================================================================================
+november 04 2024 9:31
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 04/11/2024:
+
+Enhance the search functionality to display relevant data, including TLD, products, and weak ciphers , etc...
+
+Enhance the SSL PDF download REST API by adding query parameters to improve filtering and customization.
+
+Enhance the existing REST API by adding a weak protocol field to provide additional security information.
+
+Thank you.
+add weak protocol field on existing rest.
+
+based on search show the corresponding data tld, products,weak ciphers etc...
+
+add query parameters on ssl pdf download rest  
+
+thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 04/11/2024:
+
+Enhance the search functionality to display relevant data, including TLD, products, and weak ciphers, etc.
+
+SSL PDF download REST API by adding query parameters to improve filtering and customization.
+
+Enhance the existing REST API by adding a weak protocol field to provide additional security information.
+
+Validate the REST API to ensure it works correctly and meets the requirements.
+
+Thank you.
+
+============================================================================================================================================================================================
+november 05 2024 8:45 tuesday
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 05/11/2024:
+
+Enhance the search functionality to display relevant data, including TLD, products, and weak ciphers, etc.
+
+SSL PDF download REST API by adding query parameters to improve filtering and customization.
+
+Enhance the existing REST API by adding a weak protocol field to provide additional security information.
+
+Validate the REST API to ensure it works correctly and meets the requirements.
+
+Thank you.
+
+
+Namah Shivaya Sir/Mam,
+
+Work update for 05/11/2024:
+
+9:00 t0 11:30:I focused on enhancing the search functionality to display relevant data, including TLD, products, and weak ciphers, among other details. 
+Additionally, I worked on improving the SSL PDF download REST API by incorporating query parameters to enable better filtering and customization options.
+
+11:30 to 1:10:Additionally, I enhanced the existing REST API by adding a weak protocol field to provide additional security information.
+
+1:50 to 5:00:I also developed a new REST API, /seap/internal-scan/host/get, and reviewed and modified the existing API, seap/internal-scan/host/add.
+
+5:00 to 6:40:I thoroughly validated the REST APIs to confirm that they are working correctly and meeting the requirements. 
+ 
+Thank you.
+
+============================================================================================================================================================================================
+november 06 2024 8:45 tuesday
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 06/11/2024:
+
+Review and refine the search REST API code
+    
+Modify the logic to improve efficiency and effectiveness
+    
+Validate the search REST API to ensure it is functioning correctly
+    
+Test the API to confirm it meets the required standards and specifications
+
+Thank you.  
+
+Namah Shivaya Sir/Mam,
+
+Work update for 06/11/2024:
+
+Review and refine the search REST API code
+    
+Modify the logic to improve efficiency and effectiveness
+    
+Validate the search REST API to ensure it is functioning correctly
+
+almost complete that task and i faced challeng making clikchouse query more complex finally i maked the query.
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 06/11/2024:
+
+9:00 to 10:00 : I have been working on reviewing and refining the search REST API code, and I am pleased to report that I have made significant progress. 
+
+10:00 to 1:15 : I have modified the logic to improve efficiency and effectiveness, and I have also validated the search REST API to ensure it is functioning correctly.
+
+2:00 to 7:00 : One of the challenges I faced was making the ClickHouse query more complex, but after some effort, I was able to successfully create the query.
+
+I have almost completed the task.
+
+Thank you.
+============================================================================================================================================================================================
+november 06 2024 8:45 tuesday
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 06/11/2024:
+
+Rest of the logic write 
+
+Implement error handling mechanisms to handle any errors that may occur retriving data
+
+Validate the search REST API to ensure it is functioning correctly
+    
+Test the API to confirm it meets the required standards and specifications
+
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work plan for 07/11/2024:
+
+I will focus on completing the remaining logic for the project, ensuring that all necessary components are fully developed and integrated. This will involve writing and refining the code to meet the project's requirements and specifications.
+
+Next, I will implement error handling mechanisms to handle any errors that may occur while retrieving data. 
+
+Following this, I will validate the search REST API to ensure it is functioning correctly. This will involve testing the API's functionality, verifying that it is returning accurate and complete data.
+
+Finally, I will conduct thorough testing of the API to confirm that it meets the required standards and specifications. This will involve executing a series of tests to verify the API's functionality, performance, and reliability, and making any necessary adjustments to ensure it is fully functional and ready for deployment.
+
+Aditonally, I modified host/get rest API response name insted of id and Validate and test that api it works correctly.
+ 
+Thank you.
+
+Namah Shivaya Sir/Mam,
+
+Work update for 07/11/2024:
+
+9:00 to 1:20 and 2:00 to 5:00 : my primary focus was on completing the remaining logic for the project, ensuring that all necessary components are fully developed and integrated. 
+
+I successfully implemented error handling mechanisms to handle any errors that may occur while retrieving data.
+
+Additionally, I validated the search REST API to ensure it is functioning correctly, testing its functionality and verifying that it returns accurate and complete data.
+ 
+ I also conducted thorough testing of the API to confirm that it meets the required standards and specifications, executing a series of tests to verify its functionality, performance, and reliability. 
+ 
+5:00 to 7:00 : I modified the host/get REST API response to return the name instead of the ID, and validated and tested the API to ensure it works correctly. 
+
+Thank you.
+
+
+============================================================================================================================================================================================
